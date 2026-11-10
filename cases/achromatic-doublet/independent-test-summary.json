@@ -1,0 +1,23 @@
+{
+  "createdUtc": "2026-11-10T12:13:22.171588+00:00",
+  "passed": true,
+  "testsRun": 9,
+  "elapsedSeconds": 0.47081609999440843,
+  "testIds": [
+    "independent_audit.IndependentAuditTests.test_air_spaced_edge_overlap_cannot_hide_behind_positive_center_gap",
+    "independent_audit.IndependentAuditTests.test_deliberate_epd_surface_field_and_role_violations_receive_penalties",
+    "independent_audit.IndependentAuditTests.test_doublet_formula_does_not_invent_equal_weight_eligibility",
+    "independent_audit.IndependentAuditTests.test_dummy_glass_stop_does_not_create_extra_element",
+    "independent_audit.IndependentAuditTests.test_free_image_plane_motion_cannot_game_lateral_colour",
+    "independent_audit.IndependentAuditTests.test_full_radius_separation_matches_dense_spherical_domain",
+    "independent_audit.IndependentAuditTests.test_good_cemented_pair_passes_and_shared_seam_counts_two",
+    "independent_audit.IndependentAuditTests.test_other_public_rule_violations_all_receive_positive_penalties",
+    "independent_audit.IndependentAuditTests.test_pupil_rim_failure_is_not_hidden_by_valid_interior_quadrature"
+  ],
+  "auditImplementationSha256": "b346f29662d3b2d9d9026147fa00e185cef0f57ed4c56ae023700e3a3d2bcb40",
+  "frozenProjectSha256": "e9488fecf5eb9cff0c54ec1fc5a1daf1620b64d5cc3cb74d99acc8babe144bac",
+  "scope": "Local independent auditor regressions; the submission notebook is independently self-contained and does not require the local Optiwork checkout used by these developer tests.",
+  "covered": "Object conjugate, field/spectrum declarations, EPD/EFL/f-number, two physical elements with cemented/dummy semantics, sphere/catalog/role and power signs, CT/ET/BFD/distortion/finite RMS, full-radius thickness and air overlap, exact pupil rim, and fixed d-plane cheating; no invented equal-weight rule.",
+  "officialScore": false,
+  "additionalFinalDiagnosticsExecuted": true
+}

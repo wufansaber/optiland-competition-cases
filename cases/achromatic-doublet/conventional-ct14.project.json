@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "name": "Achromatic Doublet \u00b7 CT-bounded conventional branch",
+  "objectAtInfinity": true,
+  "fieldType": "angle",
+  "fields": [
+    0.0,
+    1.5,
+    3.0
+  ],
+  "primaryWavelength": 1,
+  "aperture": 12.5,
+  "wavelengths": [
+    {
+      "value": 486.0,
+      "weight": 1.0
+    },
+    {
+      "value": 588.0,
+      "weight": 1.0
+    },
+    {
+      "value": 656.0,
+      "weight": 1.0
+    }
+  ],
+  "analysis": {
+    "mtfSamples": 64
+  },
+  "rayAiming": {
+    "mode": "off"
+  },
+  "description": "New synthetic seed from thin-achromat power equations; fixed primary Gaussian plane.",
+  "surfaces": [
+    {
+      "id": 0,
+      "type": "object",
+      "radius": null,
+      "thickness": null,
+      "material": "AIR",
+      "semiDiameter": 6.25,
+      "conic": 0.0,
+      "asphere": [],
+      "surfaceType": "STANDARD"
+    },
+    {
+      "id": 1,
+      "type": "stop",
+      "surfaceType": "STANDARD",
+      "radius": 65.1249968306964,
+      "thickness": 13.999999999999996,
+      "material": "SCHOTT:N-BK7",
+      "semiDiameter": 6.43700535911386,
+      "conic": 0.0,
+      "asphere": []
+    },
+    {
+      "id": 2,
+      "type": "standard",
+      "surfaceType": "STANDARD",
+      "radius": -24.749102693769277,
+      "thickness": 0.05000000000000047,
+      "material": "AIR",
+      "semiDiameter": 6.43700535911386,
+      "conic": 0.0,
+      "asphere": []
+    },
+    {
+      "id": 3,
+      "type": "standard",
+      "surfaceType": "STANDARD",
+      "radius": -25.196675692758433,
+      "thickness": 9.835959329429926,
+      "material": "SCHOTT:F2",
+      "semiDiameter": 6.593307105273572,
+      "conic": 0.0,
+      "asphere": []
+    },
+    {
+      "id": 4,
+      "type": "standard",
+      "surfaceType": "STANDARD",
+      "radius": -101.52175622794289,
+      "thickness": 89.79737685337585,
+      "material": "AIR",
+      "semiDiameter": 6.593307105273572,
+      "conic": 0.0,
+      "asphere": []
+    },
+    {
+      "id": 5,
+      "type": "image",
+      "surfaceType": "STANDARD",
+      "radius": null,
+      "thickness": 0.0,
+      "material": "AIR",
+      "semiDiameter": 5.415686286405284,
+      "conic": 0.0,
+      "asphere": []
+    }
+  ],
+  "fieldDefinitions": [
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "weight": 1.0
+    },
+    {
+      "x": 0.0,
+      "y": 1.5,
+      "weight": 1.0
+    },
+    {
+      "x": 0.0,
+      "y": 3.0,
+      "weight": 1.0
+    }
+  ],
+  "fieldWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "fieldUnit": "deg",
+  "apertureType": "enpd",
+  "apertureValue": 12.5,
+  "apodization": {
+    "type": "uniform",
+    "factor": 0.0
+  },
+  "objectDistance": null,
+  "designBounds": {
+    "minimumCenterThicknessMm": 2.05,
+    "maximumCenterThicknessMm": 14.0,
+    "maximumVariableAirGapMm": 20.0,
+    "minimumVariableAirGapMm": 0.05,
+    "fixedPlane": "588 nm Gaussian image plane eliminated exactly",
+    "curvatureBound": "abs(c)<0.985/initial mechanical radius; all spherical",
+    "scope": "Local numerical design bounds, not additional official competition limits."
+  }
+}

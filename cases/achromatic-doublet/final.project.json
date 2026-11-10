@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "name": "Two-Element Achromat 100 mm f8 \u00b7 Fixed 588 nm Gaussian Plane",
+  "objectAtInfinity": true,
+  "fieldType": "angle",
+  "fields": [
+    0.0,
+    1.5,
+    3.0
+  ],
+  "primaryWavelength": 1,
+  "aperture": 12.5,
+  "wavelengths": [
+    {
+      "value": 486.0,
+      "weight": 1.0
+    },
+    {
+      "value": 588.0,
+      "weight": 1.0
+    },
+    {
+      "value": 656.0,
+      "weight": 1.0
+    }
+  ],
+  "analysis": {
+    "mtfSamples": 64
+  },
+  "rayAiming": {
+    "mode": "off"
+  },
+  "description": "New synthetic seed from thin-achromat power equations; fixed primary Gaussian plane.",
+  "surfaces": [
+    {
+      "id": 0,
+      "type": "object",
+      "radius": null,
+      "thickness": null,
+      "material": "AIR",
+      "semiDiameter": 6.25,
+      "conic": 0.0,
+      "asphere": [],
+      "surfaceType": "STANDARD"
+    },
+    {
+      "id": 1,
+      "type": "stop",
+      "surfaceType": "STANDARD",
+      "radius": 68.77068305734099,
+      "thickness": 29.99986031765753,
+      "material": "SCHOTT:N-BK7",
+      "semiDiameter": 6.512952154874549,
+      "conic": 0.0,
+      "asphere": []
+    },
+    {
+      "id": 2,
+      "type": "standard",
+      "surfaceType": "STANDARD",
+      "radius": -21.44498573821897,
+      "thickness": 0.13500352248363634,
+      "material": "AIR",
+      "semiDiameter": 6.512952154874549,
+      "conic": 0.0,
+      "asphere": []
+    },
+    {
+      "id": 3,
+      "type": "standard",
+      "surfaceType": "STANDARD",
+      "radius": -21.772969771007816,
+      "thickness": 19.464452243030678,
+      "material": "SCHOTT:F2",
+      "semiDiameter": 6.893814395853176,
+      "conic": 0.0,
+      "asphere": []
+    },
+    {
+      "id": 4,
+      "type": "standard",
+      "surfaceType": "STANDARD",
+      "radius": -81.3280382900337,
+      "thickness": 80.07865326972832,
+      "material": "AIR",
+      "semiDiameter": 6.893814395853176,
+      "conic": 0.0,
+      "asphere": []
+    },
+    {
+      "id": 5,
+      "type": "image",
+      "surfaceType": "STANDARD",
+      "radius": null,
+      "thickness": 0.0,
+      "material": "AIR",
+      "semiDiameter": 5.413270186827027,
+      "conic": 0.0,
+      "asphere": []
+    }
+  ],
+  "fieldDefinitions": [
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "weight": 1.0
+    },
+    {
+      "x": 0.0,
+      "y": 1.5,
+      "weight": 1.0
+    },
+    {
+      "x": 0.0,
+      "y": 3.0,
+      "weight": 1.0
+    }
+  ],
+  "fieldWeights": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "fieldUnit": "deg",
+  "apertureType": "enpd",
+  "apertureValue": 12.5,
+  "apodization": {
+    "type": "uniform",
+    "factor": 0.0
+  },
+  "objectDistance": null,
+  "designBounds": {
+    "minimumCenterThicknessMm": 2.05,
+    "maximumCenterThicknessMm": 30.0,
+    "minimumVariableAirGapMm": 0.05,
+    "maximumVariableAirGapMm": 20.0,
+    "curvatureBound": "abs(c)<0.985/starting mechanical radius; spherical only",
+    "scope": "Declared local search bounds. Published competition specifies CT minima, not a CT maximum."
+  }
+}

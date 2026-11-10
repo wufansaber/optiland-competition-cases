@@ -1,0 +1,202 @@
+[
+  {
+    "seed": 2,
+    "configuration": "air-spaced",
+    "trainingMerit": 0.08794544376648729,
+    "evaluations": 605,
+    "elapsedSeconds": 0.8862275999999838,
+    "optimizerStatus": 3,
+    "localMerit": 0.08794544373654634,
+    "eligible": true,
+    "chiefFcLateralColorUm": -0.04881148937840862,
+    "rmsDLine": [
+      {
+        "fieldDeg": 0.0,
+        "rmsDLineUm": 5.398031831231721
+      },
+      {
+        "fieldDeg": 1.5,
+        "rmsDLineUm": 2.699417150081557
+      },
+      {
+        "fieldDeg": 3.0,
+        "rmsDLineUm": 10.204637447828667
+      }
+    ]
+  },
+  {
+    "seed": 3,
+    "configuration": "air-spaced",
+    "trainingMerit": 0.08794772673737329,
+    "evaluations": 672,
+    "elapsedSeconds": 0.9737733000001754,
+    "optimizerStatus": 3,
+    "localMerit": 0.08794772672532196,
+    "eligible": true,
+    "chiefFcLateralColorUm": -0.04876659498975755,
+    "rmsDLine": [
+      {
+        "fieldDeg": 0.0,
+        "rmsDLineUm": 5.398083318035935
+      },
+      {
+        "fieldDeg": 1.5,
+        "rmsDLineUm": 2.699471362456845
+      },
+      {
+        "fieldDeg": 3.0,
+        "rmsDLineUm": 10.204788584040896
+      }
+    ]
+  },
+  {
+    "seed": 1,
+    "configuration": "air-spaced",
+    "trainingMerit": 0.08794774010331517,
+    "evaluations": 667,
+    "elapsedSeconds": 0.979806199997256,
+    "optimizerStatus": 3,
+    "localMerit": 0.08794774007339669,
+    "eligible": true,
+    "chiefFcLateralColorUm": -0.04881195253414461,
+    "rmsDLine": [
+      {
+        "fieldDeg": 0.0,
+        "rmsDLineUm": 5.3980795566205275
+      },
+      {
+        "fieldDeg": 1.5,
+        "rmsDLineUm": 2.699470551550698
+      },
+      {
+        "fieldDeg": 3.0,
+        "rmsDLineUm": 10.204777955922816
+      }
+    ]
+  },
+  {
+    "seed": 0,
+    "configuration": "air-spaced",
+    "trainingMerit": 0.08810637176042588,
+    "evaluations": 550,
+    "elapsedSeconds": 0.788358400001016,
+    "optimizerStatus": 3,
+    "localMerit": 0.08810590839233011,
+    "eligible": true,
+    "chiefFcLateralColorUm": -0.045619323368661924,
+    "rmsDLine": [
+      {
+        "fieldDeg": 0.0,
+        "rmsDLineUm": 5.403843138279362
+      },
+      {
+        "fieldDeg": 1.5,
+        "rmsDLineUm": 2.7127000102818335
+      },
+      {
+        "fieldDeg": 3.0,
+        "rmsDLineUm": 10.211562053294337
+      }
+    ]
+  },
+  {
+    "seed": 3,
+    "configuration": "cemented",
+    "trainingMerit": 0.09652732840881631,
+    "evaluations": 230,
+    "elapsedSeconds": 0.5244278999962262,
+    "optimizerStatus": 2,
+    "localMerit": 0.09652732838954926,
+    "eligible": true,
+    "chiefFcLateralColorUm": -0.05177753577534361,
+    "rmsDLine": [
+      {
+        "fieldDeg": 0.0,
+        "rmsDLineUm": 5.758941227016506
+      },
+      {
+        "fieldDeg": 1.5,
+        "rmsDLineUm": 3.059236916034319
+      },
+      {
+        "fieldDeg": 3.0,
+        "rmsDLineUm": 10.571083786117645
+      }
+    ]
+  },
+  {
+    "seed": 1,
+    "configuration": "cemented",
+    "trainingMerit": 0.09652732840882805,
+    "evaluations": 225,
+    "elapsedSeconds": 0.5165582999979961,
+    "optimizerStatus": 2,
+    "localMerit": 0.09652732838955841,
+    "eligible": true,
+    "chiefFcLateralColorUm": -0.05177753950746933,
+    "rmsDLine": [
+      {
+        "fieldDeg": 0.0,
+        "rmsDLineUm": 5.758941224385391
+      },
+      {
+        "fieldDeg": 1.5,
+        "rmsDLineUm": 3.0592369321166277
+      },
+      {
+        "fieldDeg": 3.0,
+        "rmsDLineUm": 10.57108378172763
+      }
+    ]
+  },
+  {
+    "seed": 2,
+    "configuration": "cemented",
+    "trainingMerit": 0.09652732840879347,
+    "evaluations": 269,
+    "elapsedSeconds": 0.5764956000057282,
+    "optimizerStatus": 2,
+    "localMerit": 0.09652732838956417,
+    "eligible": true,
+    "chiefFcLateralColorUm": -0.051777503583316786,
+    "rmsDLine": [
+      {
+        "fieldDeg": 0.0,
+        "rmsDLineUm": 5.758941216962725
+      },
+      {
+        "fieldDeg": 1.5,
+        "rmsDLineUm": 3.0592368066033733
+      },
+      {
+        "fieldDeg": 3.0,
+        "rmsDLineUm": 10.571083833356221
+      }
+    ]
+  },
+  {
+    "seed": 0,
+    "configuration": "cemented",
+    "trainingMerit": 0.09652732840880747,
+    "evaluations": 277,
+    "elapsedSeconds": 0.5895550999994157,
+    "optimizerStatus": 2,
+    "localMerit": 0.09652732838956837,
+    "eligible": true,
+    "chiefFcLateralColorUm": -0.05177754571850102,
+    "rmsDLine": [
+      {
+        "fieldDeg": 0.0,
+        "rmsDLineUm": 5.758941217646625
+      },
+      {
+        "fieldDeg": 1.5,
+        "rmsDLineUm": 3.059236948306769
+      },
+      {
+        "fieldDeg": 3.0,
+        "rmsDLineUm": 10.571083778767173
+      }
+    ]
+  }
+]

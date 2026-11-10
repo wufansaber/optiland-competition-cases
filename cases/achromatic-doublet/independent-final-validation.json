@@ -1,0 +1,461 @@
+{
+  "officialScore": false,
+  "normalizedProjectSha256": "190ee8eece25afff6dea0d47718a5e405d2d218a8d127f25714294f0741dc246",
+  "constraints": [
+    {
+      "name": "object_at_infinity",
+      "passed": true,
+      "value": true,
+      "penalty": 0.0,
+      "scope": "public_rule",
+      "detail": null
+    },
+    {
+      "name": "spherical_surfaces_only",
+      "passed": true,
+      "value": null,
+      "penalty": 0.0,
+      "scope": "public_rule",
+      "detail": "Planes are spherical surfaces of infinite radius."
+    },
+    {
+      "name": "specified_fields",
+      "passed": true,
+      "value": [
+        0.0,
+        1.5,
+        3.0
+      ],
+      "penalty": 0.0,
+      "scope": "public_rule",
+      "detail": null
+    },
+    {
+      "name": "specified_wavelengths",
+      "passed": true,
+      "value": [
+        486.0,
+        588.0,
+        656.0
+      ],
+      "penalty": 0.0,
+      "scope": "public_rule",
+      "detail": null
+    },
+    {
+      "name": "entrance_pupil_diameter_12p5_mm",
+      "passed": true,
+      "value": 12.5,
+      "penalty": 0.0,
+      "scope": "public_rule",
+      "detail": null
+    },
+    {
+      "name": "declared_launch",
+      "passed": true,
+      "value": null,
+      "penalty": 0.0,
+      "scope": "local_definition",
+      "detail": "Fixed physical angles and uniform incident pupil, with no per-colour field conversion."
+    },
+    {
+      "name": "effective_focal_length_mm",
+      "passed": true,
+      "value": 99.99999918839563,
+      "minimum": 99.0,
+      "maximum": 101.0,
+      "penalty": 0.0,
+      "scope": "public_rule",
+      "detail": null
+    },
+    {
+      "name": "f_number",
+      "passed": true,
+      "value": 7.999999935071651,
+      "minimum": 7.84,
+      "maximum": 8.16,
+      "penalty": 0.0,
+      "scope": "public_rule",
+      "detail": null
+    },
+    {
+      "name": "fixed_588_nm_gaussian_image_plane",
+      "passed": true,
+      "value": -2.842170943040401e-14,
+      "penalty": 0.0,
+      "scope": "local_definition",
+      "detail": "One common d-line Gaussian plane; F and C are never refocused independently."
+    },
+    {
+      "name": "element_count",
+      "passed": true,
+      "value": 2.0,
+      "minimum": 2,
+      "maximum": 2,
+      "penalty": 0.0,
+      "scope": "public_rule",
+      "detail": null
+    },
+    {
+      "name": "cemented_or_air_spaced_doublet",
+      "passed": true,
+      "value": null,
+      "penalty": 0.0,
+      "scope": "public_rule",
+      "detail": "Shared glass transition is cemented; separate ordered glass boundaries are air-spaced."
+    },
+    {
+      "name": "element_1_catalog_material",
+      "passed": true,
+      "value": "SCHOTT:N-BK7",
+      "penalty": 0.0,
+      "scope": "public_rule",
+      "detail": null
+    },
+    {
+      "name": "element_1_center_thickness_mm",
+      "passed": true,
+      "value": 29.99986031765753,
+      "minimum": 2.0,
+      "maximum": null,
+      "penalty": 0.0,
+      "scope": "public_rule",
+      "detail": null
+    },
+    {
+      "name": "element_1_edge_thickness_mm",
+      "passed": true,
+      "value": 28.677829099906173,
+      "minimum": 1.0,
+      "maximum": null,
+      "penalty": 0.0,
+      "scope": "public_rule",
+      "detail": null
+    },
+    {
+      "name": "element_1_full_radius_thickness_mm",
+      "passed": true,
+      "value": 28.677829099906173,
+      "minimum": 1.0,
+      "maximum": null,
+      "penalty": 0.0,
+      "scope": "nominal_geometry",
+      "detail": null
+    },
+    {
+      "name": "element_2_catalog_material",
+      "passed": true,
+      "value": "SCHOTT:F2",
+      "penalty": 0.0,
+      "scope": "public_rule",
+      "detail": null
+    },
+    {
+      "name": "element_2_center_thickness_mm",
+      "passed": true,
+      "value": 19.464452243030678,
+      "minimum": 2.0,
+      "maximum": null,
+      "penalty": 0.0,
+      "scope": "public_rule",
+      "detail": null
+    },
+    {
+      "name": "element_2_edge_thickness_mm",
+      "passed": true,
+      "value": 20.291931177672637,
+      "minimum": 1.0,
+      "maximum": null,
+      "penalty": 0.0,
+      "scope": "public_rule",
+      "detail": null
+    },
+    {
+      "name": "element_2_full_radius_thickness_mm",
+      "passed": true,
+      "value": 19.464452243030678,
+      "minimum": 1.0,
+      "maximum": null,
+      "penalty": 0.0,
+      "scope": "nominal_geometry",
+      "detail": null
+    },
+    {
+      "name": "positive_crown_and_negative_flint",
+      "passed": true,
+      "value": [
+        {
+          "material": "SCHOTT:N-BK7",
+          "role": "crown",
+          "isolatedAirPowerPerMm": 0.028030951228535897
+        },
+        {
+          "material": "SCHOTT:F2",
+          "role": "flint",
+          "isolatedAirPowerPerMm": -0.01824401832914378
+        }
+      ],
+      "penalty": 0.0,
+      "scope": "public_rule",
+      "detail": "Roles use explicit named catalog classifications, not an invented official Abbe cutoff. Each element is isolated in air for the power-sign check."
+    },
+    {
+      "name": "back_focal_distance_mm",
+      "passed": true,
+      "value": 80.07865326972832,
+      "minimum": 60.0,
+      "maximum": null,
+      "penalty": 0.0,
+      "scope": "public_rule",
+      "detail": null
+    },
+    {
+      "name": "full_radius_air_clearance_mm",
+      "passed": true,
+      "value": 0.13500352248363612,
+      "minimum": 0.0,
+      "maximum": null,
+      "penalty": 0.0,
+      "scope": "nominal_geometry",
+      "detail": {
+        "centerMm": 0.13500352248363612,
+        "edgeMm": 0.15100046691800728,
+        "minimumMm": 0.13500352248363612,
+        "radiusMm": 6.512952154874549,
+        "extrema": "exact endpoints for common spherical branches"
+      }
+    },
+    {
+      "name": "complete_sampled_pupil_transmission",
+      "passed": true,
+      "value": null,
+      "penalty": 0.0,
+      "scope": "nominal_geometry",
+      "detail": {
+        "failedQuadratureAndChiefRays": 0,
+        "failedRimRays": 0,
+        "scope": "All 3 fields x 3 wavelengths, plus 128 rays on the exact normalized pupil rim. Failed rays cannot improve the score."
+      }
+    },
+    {
+      "name": "finite_d_line_rms",
+      "passed": true,
+      "value": [
+        {
+          "fieldDeg": 0.0,
+          "rmsUm": 3.9776508841215894
+        },
+        {
+          "fieldDeg": 1.5,
+          "rmsUm": 2.063955087295299
+        },
+        {
+          "fieldDeg": 3.0,
+          "rmsUm": 7.5186904383735795
+        }
+      ],
+      "penalty": 0.0,
+      "scope": "public_rule",
+      "detail": null
+    },
+    {
+      "name": "distortion_percent_at_3_deg",
+      "passed": true,
+      "value": 0.05854428853315372,
+      "minimum": null,
+      "maximum": 0.5,
+      "penalty": 0.0,
+      "scope": "public_rule",
+      "detail": null
+    }
+  ],
+  "elements": [
+    {
+      "front": 1,
+      "rear": 2,
+      "material": "SCHOTT:N-BK7",
+      "role": "crown",
+      "index588": 1.5167817367777037,
+      "abbeVd": 64.17,
+      "isolatedAirPowerPerMm": 0.028030951228535897,
+      "centerThicknessMm": 29.99986031765753,
+      "mechanicalRadiusMm": 6.512952154874549,
+      "thickness": {
+        "centerMm": 29.99986031765753,
+        "edgeMm": 28.677829099906173,
+        "minimumMm": 28.677829099906173,
+        "radiusMm": 6.512952154874549,
+        "extrema": "exact endpoints for common spherical branches"
+      }
+    },
+    {
+      "front": 3,
+      "rear": 4,
+      "material": "SCHOTT:F2",
+      "role": "flint",
+      "index588": 1.6200022808636685,
+      "abbeVd": 36.37,
+      "isolatedAirPowerPerMm": -0.01824401832914378,
+      "centerThicknessMm": 19.464452243030678,
+      "mechanicalRadiusMm": 6.893814395853176,
+      "thickness": {
+        "centerMm": 19.464452243030678,
+        "edgeMm": 20.291931177672637,
+        "minimumMm": 19.464452243030678,
+        "radiusMm": 6.893814395853176,
+        "extrema": "exact endpoints for common spherical branches"
+      }
+    }
+  ],
+  "rmsD": [
+    {
+      "fieldDeg": 0.0,
+      "rmsUm": 3.9776508841215894
+    },
+    {
+      "fieldDeg": 1.5,
+      "rmsUm": 2.063955087295299
+    },
+    {
+      "fieldDeg": 3.0,
+      "rmsUm": 7.5186904383735795
+    }
+  ],
+  "declaredSearchBounds": {
+    "minimumCenterThicknessMm": 2.05,
+    "maximumCenterThicknessMm": 30.0,
+    "minimumVariableAirGapMm": 0.05,
+    "maximumVariableAirGapMm": 20.0,
+    "curvatureBound": "abs(c)<0.985/starting mechanical radius; spherical only",
+    "scope": "Declared local search bounds. Published competition specifies CT minima, not a CT maximum."
+  },
+  "eflDmm": 99.99999918839563,
+  "dGaussianImageZMm": 129.6779693529002,
+  "imagePlaneErrorMm": -2.842170943040401e-14,
+  "sampling": {
+    "radialOrder": 32,
+    "azimuths": 192,
+    "raysPerFieldWave": 6144,
+    "rimRaysPerFieldWave": 128,
+    "convergenceCertified": false
+  },
+  "definitions": {
+    "lateralColor": "Absolute F--C chief-ray separation at 3 degrees on the fixed 588 nm Gaussian plane",
+    "centroidColor": "Separate diagnostic: F--C quadrature centroid separation at that same plane",
+    "distortion": "588 nm chief height / (EFL_588 * tan(3 degrees)) - 1",
+    "merit": "(chief_LC_um/5)^2 + .25*sum_fields((RMS_588_um/20)^2) + explicit local P",
+    "limitations": "Public rules do not define chief versus centroid LC, exact d focus, sampling or penalty scale. This is an explicit reproducible local interpretation, not official scoring."
+  },
+  "chiefLateralColorUm": 0.026079501623144097,
+  "centroidLateralColorUm": 0.33372736915904255,
+  "distortionPercent": -0.05854428853315372,
+  "objective": 0.047909907532706277,
+  "penalty": 0.0,
+  "passed": true,
+  "localMerit": 0.047909907532706277,
+  "additionalUnscoredDiagnostics": {
+    "scored": false,
+    "allSampledRaysValid": true,
+    "sampling": {
+      "radialOrder": 24,
+      "azimuths": 128,
+      "rimAngles": 128,
+      "fieldsDeg": [
+        0.0,
+        0.75,
+        1.5,
+        2.25,
+        3.0
+      ],
+      "wavelengthsNm": [
+        486.0,
+        588.0,
+        656.0
+      ]
+    },
+    "intermediateFields": [
+      {
+        "fieldDeg": 0.75,
+        "rmsDLineUm": 3.4023188954953394,
+        "chiefFcUm": 0.006306259278554549,
+        "distortionDPercent": -0.0036555042030050012,
+        "allThreeWaveInteriorChiefAndRimValid": true
+      },
+      {
+        "fieldDeg": 2.25,
+        "rmsDLineUm": 3.1883477022070137,
+        "chiefFcUm": 0.0192595163843734,
+        "distortionDPercent": -0.032916400635809716,
+        "allThreeWaveInteriorChiefAndRimValid": true
+      }
+    ],
+    "gaussianChromaticFocus": {
+      "rows": [
+        {
+          "wavelengthNm": 486.0,
+          "relativeToDPlaneMm": 0.38101276188317
+        },
+        {
+          "wavelengthNm": 588.0,
+          "relativeToDPlaneMm": 0.0
+        },
+        {
+          "wavelengthNm": 656.0,
+          "relativeToDPlaneMm": -0.0834167391778351
+        }
+      ],
+      "absoluteFcAxialSeparationMm": 0.4644295010610051,
+      "definition": "First-order axial focus, a separate unscored diagnostic. Small lateral colour is not proof of broadband diffraction-limited achromatism."
+    },
+    "singleBestRealDPlane": {
+      "shiftFromGaussianMm": -0.012128158627763357,
+      "rmsDLine": [
+        {
+          "fieldDeg": 0.0,
+          "rmsDLineUm": 4.493030491179274
+        },
+        {
+          "fieldDeg": 1.5,
+          "rmsDLineUm": 2.416515289895292
+        },
+        {
+          "fieldDeg": 3.0,
+          "rmsDLineUm": 7.051345577300037
+        }
+      ],
+      "chiefFcUm": 0.0272772423910439,
+      "definition": "One common plane minimizing the sum of d-line centroid variances over the three official fields; F and C remain on this same plane."
+    }
+  },
+  "testedGridSensitivity": {
+    "convergenceCertified": false,
+    "definition": "Independent density sensitivity over the tested pupil grids; this does not certify every unsampled field, wavelength or perturbation.",
+    "rows": [
+      {
+        "radialOrder": 16,
+        "azimuths": 96,
+        "passed": true,
+        "localMerit": 0.047909907532707276,
+        "maxRmsDifferenceToDensestUm": 9.681144774731365e-14,
+        "objectiveDifferenceToDensest": 9.992007221626409e-16
+      },
+      {
+        "radialOrder": 24,
+        "azimuths": 128,
+        "passed": true,
+        "localMerit": 0.04790990753270201,
+        "maxRmsDifferenceToDensestUm": 8.570921750106208e-13,
+        "objectiveDifferenceToDensest": 4.2674197509029455e-15
+      },
+      {
+        "radialOrder": 32,
+        "azimuths": 192,
+        "passed": true,
+        "localMerit": 0.047909907532706277,
+        "maxRmsDifferenceToDensestUm": 0.0,
+        "objectiveDifferenceToDensest": 0.0
+      }
+    ]
+  },
+  "sourceFileSha256": "e9488fecf5eb9cff0c54ec1fc5a1daf1620b64d5cc3cb74d99acc8babe144bac"
+}

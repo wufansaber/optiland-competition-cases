@@ -1,0 +1,29 @@
+{
+  "sourceMethod": "Unchanged standalone-optics deterministic curvature candidates; WFE-ranked CPU/CUDA coarse screening and CPU20x64 dense replay",
+  "sourceCandidateCount": 15,
+  "sourceEligibleCount": 15,
+  "sourceCurvatureSurfaces": [
+    1,
+    3,
+    4
+  ],
+  "sourceDeltaCurvatureBoundsInvMm": [
+    -5e-07,
+    5e-07
+  ],
+  "sourceWinner": "candidate_00002",
+  "sourcePlane": "All coarse candidates use the fixed starting d-line plane; selected geometry gets its new Gaussian588nm plane before refinement.",
+  "refinementMethod": "SciPy bounded least_squares with standalone real-ray d-line RMS/chief-FC residuals; no global-optimality claim",
+  "beforeLocalMerit": 0.04847046940900188,
+  "refinedLocalMerit": 0.04790990753269858,
+  "refinedEligible": true,
+  "refinementAccepted": true,
+  "refinementLog": {
+    "seed": 0,
+    "configuration": "air-spaced",
+    "trainingMerit": 0.0479099077958199,
+    "evaluations": 694,
+    "elapsedSeconds": 1.1812064000041573,
+    "optimizerStatus": 0
+  }
+}

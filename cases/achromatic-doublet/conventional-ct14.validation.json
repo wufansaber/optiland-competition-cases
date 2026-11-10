@@ -1,0 +1,372 @@
+{
+  "createdUtc": "2026-11-10T12:07:47.714677+00:00",
+  "competition": "Design an Achromatic Doublet",
+  "competitionId": "f25db72f-a90b-4c41-af3c-9dcd85fb2090",
+  "sourceUrl": "https://www.optiland.org/competitions",
+  "officialScore": false,
+  "definitions": {
+    "localMetric": "(chief-ray F-C lateral color at3deg /5um)^2 +.25*sum((centroid d-line RMS atfield/20um)^2)+P",
+    "plane": "One fixed primary588nm Gaussian image plane, geometry-eliminated before evaluation. F/C never independently refocused.",
+    "roles": "Named conventional SCHOTT N-BK7 crown and F2 flint, withcatalog nd/Vd and isolated thick-element power signs. No new Abbe cutoff is presented as an official rule.",
+    "penalty": "100*(normalized numerical excess)^2 per violation;1e6 per structural failure. All listed rules checked separately.",
+    "mechanicalRadius": "Declared circular radii from full-pupil envelope plus0.15mm allocation; cemented members shareone radius. Nominal geometry only."
+  },
+  "sampling": {
+    "radialOrder": 16,
+    "azimuths": 64,
+    "raysPerFieldWave": 1024,
+    "method": "Gauss-Legendre area quadrature;physical fields fixed across wavelengths"
+  },
+  "chiefFcLateralColorUm": -0.04881148937840862,
+  "centroidFcLateralColorUm": -0.3320470448739954,
+  "rmsDLine": [
+    {
+      "fieldDeg": 0.0,
+      "rmsDLineUm": 5.398031831231721
+    },
+    {
+      "fieldDeg": 1.5,
+      "rmsDLineUm": 2.699417150081557
+    },
+    {
+      "fieldDeg": 3.0,
+      "rmsDLineUm": 10.204637447828667
+    }
+  ],
+  "imagePlane": {
+    "fixedZMm": 113.68333618280577,
+    "gaussianDLineZMm": 113.68333618280575,
+    "bestRealDLineShiftMm": -0.01615634919055136,
+    "alternativeSinglePlaneRmsDLine": [
+      {
+        "fieldDeg": 0.0,
+        "rmsDLineUm": 6.078107036000106
+      },
+      {
+        "fieldDeg": 1.5,
+        "rmsDLineUm": 3.1809287708775873
+      },
+      {
+        "fieldDeg": 3.0,
+        "rmsDLineUm": 9.5898237613526
+      }
+    ],
+    "alternativeSinglePlaneChiefFcUm": -0.04971097180206385
+  },
+  "elements": [
+    {
+      "front": 1,
+      "rear": 2,
+      "material": "SCHOTT:N-BK7",
+      "role": "crown",
+      "catalogNd": 1.5168,
+      "catalogVd": 64.17,
+      "isolatedPowerAt588InvMm": 0.027286687485244574,
+      "centerThicknessMm": 13.999999999999996,
+      "edgeThicknessMm": 12.829341126112087,
+      "mechanicalRadiusMm": 6.43700535911386
+    },
+    {
+      "front": 3,
+      "rear": 4,
+      "material": "SCHOTT:F2",
+      "role": "flint",
+      "catalogNd": 1.62004,
+      "catalogVd": 36.37,
+      "isolatedPowerAt588InvMm": -0.017587023251729138,
+      "centerThicknessMm": 9.835959329429926,
+      "edgeThicknessMm": 10.499575529748661,
+      "mechanicalRadiusMm": 6.593307105273572
+    }
+  ],
+  "distortion": [
+    {
+      "wavelengthNm": 486.0,
+      "fieldDeg": 3.0,
+      "percent": -0.0278890793960984
+    },
+    {
+      "wavelengthNm": 588.0,
+      "fieldDeg": 3.0,
+      "percent": -0.031674816715701576
+    },
+    {
+      "wavelengthNm": 656.0,
+      "fieldDeg": 3.0,
+      "percent": -0.02695770069278707
+    }
+  ],
+  "constraints": [
+    {
+      "name": "infinite_object",
+      "value": true,
+      "minimum": null,
+      "maximum": null,
+      "basis": "published_rule",
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0
+    },
+    {
+      "name": "efl_mm",
+      "value": 99.99999972617763,
+      "minimum": 99.0,
+      "maximum": 101.0,
+      "basis": "published_rule",
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0
+    },
+    {
+      "name": "f_number",
+      "value": 7.999999978094211,
+      "minimum": 7.84,
+      "maximum": 8.16,
+      "basis": "published_rule",
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0
+    },
+    {
+      "name": "entrance_pupil_mm",
+      "value": 0.0,
+      "minimum": null,
+      "maximum": 1e-09,
+      "basis": "published_rule",
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0
+    },
+    {
+      "name": "exactly_two_elements",
+      "value": 2,
+      "minimum": null,
+      "maximum": null,
+      "basis": "published_rule",
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0
+    },
+    {
+      "name": "spherical_only",
+      "value": true,
+      "minimum": null,
+      "maximum": null,
+      "basis": "published_rule",
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0
+    },
+    {
+      "name": "specified_fields",
+      "value": [
+        0.0,
+        1.5,
+        3.0
+      ],
+      "minimum": null,
+      "maximum": null,
+      "basis": "published_rule",
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0
+    },
+    {
+      "name": "specified_spectrum",
+      "value": [
+        486.0,
+        588.0,
+        656.0
+      ],
+      "minimum": null,
+      "maximum": null,
+      "basis": "published_rule",
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0
+    },
+    {
+      "name": "local_equal_auxiliary_weights",
+      "value": true,
+      "minimum": null,
+      "maximum": null,
+      "basis": "local_convention",
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0
+    },
+    {
+      "name": "fixed_d_line_gaussian_plane_error_mm",
+      "value": 2.842170943040401e-14,
+      "minimum": null,
+      "maximum": 1e-07,
+      "basis": "local_plane_definition",
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0
+    },
+    {
+      "name": "complete_sampled_pupil",
+      "value": true,
+      "minimum": null,
+      "maximum": null,
+      "basis": "numerical_integrity",
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0
+    },
+    {
+      "name": "finite_d_line_rms",
+      "value": true,
+      "minimum": null,
+      "maximum": null,
+      "basis": "published_rule",
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0
+    },
+    {
+      "name": "element_1_2_ct_mm",
+      "value": 13.999999999999996,
+      "minimum": 2.0,
+      "maximum": null,
+      "basis": "published_rule",
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0
+    },
+    {
+      "name": "element_1_2_et_mm",
+      "value": 12.829341126112087,
+      "minimum": 1.0,
+      "maximum": null,
+      "basis": "published_rule",
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0
+    },
+    {
+      "name": "element_3_4_ct_mm",
+      "value": 9.835959329429926,
+      "minimum": 2.0,
+      "maximum": null,
+      "basis": "published_rule",
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0
+    },
+    {
+      "name": "element_3_4_et_mm",
+      "value": 10.499575529748661,
+      "minimum": 1.0,
+      "maximum": null,
+      "basis": "published_rule",
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0
+    },
+    {
+      "name": "one_catalog_crown_one_catalog_flint",
+      "value": true,
+      "minimum": null,
+      "maximum": null,
+      "basis": "published_rule",
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0
+    },
+    {
+      "name": "isolated_crown_positive_power",
+      "value": 0.027286687485244574,
+      "minimum": null,
+      "maximum": null,
+      "basis": "published_rule",
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0
+    },
+    {
+      "name": "isolated_flint_negative_power",
+      "value": -0.017587023251729138,
+      "minimum": null,
+      "maximum": null,
+      "basis": "published_rule",
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0
+    },
+    {
+      "name": "back_focal_distance_mm",
+      "value": 89.79737685337585,
+      "minimum": 60.0,
+      "maximum": null,
+      "basis": "published_rule",
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0
+    },
+    {
+      "name": "airspaced_positive_full_radius_gap_mm",
+      "value": 0.05000000000000071,
+      "minimum": 1e-07,
+      "maximum": null,
+      "basis": "additional_nominal_solid_guard",
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0
+    },
+    {
+      "name": "separate_mechanical_rim_axial_clearance_mm",
+      "value": 0.023815935823941148,
+      "minimum": 0.0,
+      "maximum": null,
+      "basis": "additional_nominal_rim_convention",
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0
+    },
+    {
+      "name": "distortion_3deg_486nm_percent",
+      "value": 0.0278890793960984,
+      "minimum": null,
+      "maximum": 0.5,
+      "basis": "additional_color_check",
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0
+    },
+    {
+      "name": "distortion_3deg_588nm_percent",
+      "value": 0.031674816715701576,
+      "minimum": null,
+      "maximum": 0.5,
+      "basis": "published_rule",
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0
+    },
+    {
+      "name": "distortion_3deg_656nm_percent",
+      "value": 0.02695770069278707,
+      "minimum": null,
+      "maximum": 0.5,
+      "basis": "additional_color_check",
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0
+    }
+  ],
+  "colorTerm": 9.530245981353991e-05,
+  "rmsTerm": 0.0878501412767328,
+  "penalty": 0.0,
+  "localMerit": 0.08794544373654634,
+  "allConstraintsPassed": true,
+  "projectSha256": "95eb6f656b504ef62320bc0fa29e6fe830a996cba083e12e82689c68057d2a02",
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.16.3",
+    "optiland": "0.6.2.post234+ga9e544a2"
+  },
+  "passed": true,
+  "elapsedSeconds": 0.054664700001012534
+}
