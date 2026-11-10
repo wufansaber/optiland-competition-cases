@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "name": "Spherical Six-Element 50 mm f4 \u00b7 Standalone WFE Screen and RMS Refinement",
+  "objectAtInfinity": true,
+  "fieldType": "angle",
+  "aperture": 12.5,
+  "primaryWavelength": 1,
+  "fields": [
+    0.0,
+    7.0,
+    10.0,
+    12.0,
+    14.0
+  ],
+  "wavelengths": [
+    {
+      "value": 486.0,
+      "weight": 1.0
+    },
+    {
+      "value": 588.0,
+      "weight": 1.0
+    },
+    {
+      "value": 656.0,
+      "weight": 1.0
+    }
+  ],
+  "analysis": {
+    "mtfSamples": 64
+  },
+  "rayAiming": {
+    "mode": "off"
+  },
+  "description": "Public-gallery initialization, new contest optimization. No private prescription used.",
+  "surfaces": [
+    {
+      "id": 0,
+      "type": "object",
+      "radius": null,
+      "thickness": null,
+      "material": "AIR",
+      "semiDiameter": 6.25,
+      "conic": 0.0,
+      "asphere": [],
+      "surfaceType": "STANDARD"
+    },
+    {
+      "id": 1,
+      "type": "standard",
+      "surfaceType": "STANDARD",
+      "radius": 26.98254581303363,
+      "thickness": 4.165277088671429,
+      "material": "SCHOTT:N-SSK2",
+      "semiDiameter": 12.735550876402655,
+      "conic": 0.0,
+      "asphere": [],
+      "comment": "Public contest candidate"
+    },
+    {
+      "id": 2,
+      "type": "standard",
+      "surfaceType": "STANDARD",
+      "radius": 74.0808330503839,
+      "thickness": 0.10007326904608795,
+      "material": "AIR",
+      "semiDiameter": 12.735550876402655,
+      "conic": 0.0,
+      "asphere": [],
+      "comment": "Public contest candidate"
+    },
+    {
+      "id": 3,
+      "type": "standard",
+      "surfaceType": "STANDARD",
+      "radius": 19.85280362048218,
+      "thickness": 6.703277843541189,
+      "material": "SCHOTT:N-SK2",
+      "semiDiameter": 10.916259651163829,
+      "conic": 0.0,
+      "asphere": [],
+      "comment": "Public contest candidate"
+    },
+    {
+      "id": 4,
+      "type": "standard",
+      "surfaceType": "STANDARD",
+      "radius": 2159.7371454642116,
+      "thickness": 2.340554049998131,
+      "material": "SCHOTT:F5",
+      "semiDiameter": 10.916259651163829,
+      "conic": 0.0,
+      "asphere": [],
+      "comment": "Public contest candidate"
+    },
+    {
+      "id": 5,
+      "type": "standard",
+      "surfaceType": "STANDARD",
+      "radius": 11.506722475911006,
+      "thickness": 7.484758921278743,
+      "material": "AIR",
+      "semiDiameter": 10.916259651163829,
+      "conic": 0.0,
+      "asphere": [],
+      "comment": "Public contest candidate"
+    },
+    {
+      "id": 6,
+      "type": "stop",
+      "surfaceType": "STANDARD",
+      "radius": null,
+      "thickness": 5.858761326231504,
+      "material": "AIR",
+      "semiDiameter": 4.226468033887575,
+      "conic": 0.0,
+      "asphere": [],
+      "comment": "Public contest candidate"
+    },
+    {
+      "id": 7,
+      "type": "standard",
+      "surfaceType": "STANDARD",
+      "radius": -13.418306647203437,
+      "thickness": 2.6213266930885877,
+      "material": "SCHOTT:F5",
+      "semiDiameter": 8.948034251132755,
+      "conic": 0.0,
+      "asphere": [],
+      "comment": "Public contest candidate"
+    },
+    {
+      "id": 8,
+      "type": "standard",
+      "surfaceType": "STANDARD",
+      "radius": 90.138965253226,
+      "thickness": 5.918861878734615,
+      "material": "SCHOTT:N-SK16",
+      "semiDiameter": 8.948034251132755,
+      "conic": 0.0,
+      "asphere": [],
+      "comment": "Public contest candidate"
+    },
+    {
+      "id": 9,
+      "type": "standard",
+      "surfaceType": "STANDARD",
+      "radius": -18.068307055331896,
+      "thickness": 0.10029710426575336,
+      "material": "AIR",
+      "semiDiameter": 8.948034251132755,
+      "conic": 0.0,
+      "asphere": [],
+      "comment": "Public contest candidate"
+    },
+    {
+      "id": 10,
+      "type": "standard",
+      "surfaceType": "STANDARD",
+      "radius": 84.03225946273947,
+      "thickness": 2.8755564429748333,
+      "material": "SCHOTT:N-SK16",
+      "semiDiameter": 10.018745492440974,
+      "conic": 0.0,
+      "asphere": [],
+      "comment": "Public contest candidate"
+    },
+    {
+      "id": 11,
+      "type": "standard",
+      "surfaceType": "STANDARD",
+      "radius": -41.546566077323554,
+      "thickness": 33.578527372475364,
+      "material": "AIR",
+      "semiDiameter": 10.018745492440974,
+      "conic": 0.0,
+      "asphere": [],
+      "comment": "Public contest candidate"
+    },
+    {
+      "id": 12,
+      "type": "image",
+      "surfaceType": "STANDARD",
+      "radius": null,
+      "thickness": 0.0,
+      "material": "AIR",
+      "semiDiameter": 12.45812962674468,
+      "conic": 0.0,
+      "asphere": [],
+      "comment": "Public contest candidate"
+    }
+  ],
+  "fieldDefinitions": [
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "weight": 1.0
+    },
+    {
+      "x": 0.0,
+      "y": 7.0,
+      "weight": 1.0
+    },
+    {
+      "x": 0.0,
+      "y": 10.0,
+      "weight": 1.0
+    },
+    {
+      "x": 0.0,
+      "y": 12.0,
+      "weight": 1.0
+    },
+    {
+      "x": 0.0,
+      "y": 14.0,
+      "weight": 1.0
+    }
+  ],
+  "fieldWeights": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "fieldUnit": "deg",
+  "apertureType": "enpd",
+  "apertureValue": 12.5,
+  "apodization": {
+    "type": "uniform",
+    "factor": 0.0
+  },
+  "objectDistance": null
+}

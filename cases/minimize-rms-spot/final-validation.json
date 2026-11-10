@@ -1,0 +1,734 @@
+{
+  "createdUtc": "2026-11-10T09:55:29.547322+00:00",
+  "contest": "Minimize RMS Spot Size",
+  "competitionId": "c14c84aa-2b25-48db-b488-d879d00d416a",
+  "officialScore": false,
+  "sourceUrl": "https://www.optiland.org/competitions",
+  "templateUrl": "https://colab.research.google.com/github/HarrisonKramer/optiland/blob/master/templates/competition-template.ipynb",
+  "scoreDefinition": "sum over fields, w_i=1, (polychromatic centroid RMS /25 um)^2 + explicit penalty P",
+  "sampling": {
+    "method": "Gauss-Legendre unit disk",
+    "radialOrder": 20,
+    "azimuths": 96,
+    "raysPerFieldPerWavelength": 1920,
+    "spectralWeights": "equal",
+    "fieldWeights": "one each"
+  },
+  "rms": [
+    {
+      "fieldDeg": 0.0,
+      "rmsUm": 2.000958803003324
+    },
+    {
+      "fieldDeg": 7.0,
+      "rmsUm": 1.9774896487766507
+    },
+    {
+      "fieldDeg": 10.0,
+      "rmsUm": 1.9111310399040249
+    },
+    {
+      "fieldDeg": 12.0,
+      "rmsUm": 1.6299110010025466
+    },
+    {
+      "fieldDeg": 14.0,
+      "rmsUm": 2.500480860887407
+    }
+  ],
+  "distortion": [
+    {
+      "fieldDeg": 0.0,
+      "wavelengthNm": 486.0,
+      "percent": -0.05802868602105169,
+      "axisLimit": true,
+      "axisLimitProbeDeg": 1e-05
+    },
+    {
+      "fieldDeg": 0.0,
+      "wavelengthNm": 588.0,
+      "percent": -0.07229952469926175,
+      "axisLimit": true,
+      "axisLimitProbeDeg": 1e-05
+    },
+    {
+      "fieldDeg": 0.0,
+      "wavelengthNm": 656.0,
+      "percent": -0.07708705347866282,
+      "axisLimit": true,
+      "axisLimitProbeDeg": 1e-05
+    },
+    {
+      "fieldDeg": 7.0,
+      "wavelengthNm": 486.0,
+      "percent": -0.33752753161940807,
+      "axisLimit": false,
+      "axisLimitProbeDeg": null
+    },
+    {
+      "fieldDeg": 7.0,
+      "wavelengthNm": 588.0,
+      "percent": -0.34877193894956987,
+      "axisLimit": false,
+      "axisLimitProbeDeg": null
+    },
+    {
+      "fieldDeg": 7.0,
+      "wavelengthNm": 656.0,
+      "percent": -0.3519193510378687,
+      "axisLimit": false,
+      "axisLimitProbeDeg": null
+    },
+    {
+      "fieldDeg": 10.0,
+      "wavelengthNm": 486.0,
+      "percent": -0.6486488783789127,
+      "axisLimit": false,
+      "axisLimitProbeDeg": null
+    },
+    {
+      "fieldDeg": 10.0,
+      "wavelengthNm": 588.0,
+      "percent": -0.6564178361902411,
+      "axisLimit": false,
+      "axisLimitProbeDeg": null
+    },
+    {
+      "fieldDeg": 10.0,
+      "wavelengthNm": 656.0,
+      "percent": -0.6577024327187244,
+      "axisLimit": false,
+      "axisLimitProbeDeg": null
+    },
+    {
+      "fieldDeg": 12.0,
+      "wavelengthNm": 486.0,
+      "percent": -0.9349599010869971,
+      "axisLimit": false,
+      "axisLimitProbeDeg": null
+    },
+    {
+      "fieldDeg": 12.0,
+      "wavelengthNm": 588.0,
+      "percent": -0.9394202293074359,
+      "axisLimit": false,
+      "axisLimitProbeDeg": null
+    },
+    {
+      "fieldDeg": 12.0,
+      "wavelengthNm": 656.0,
+      "percent": -0.9389509423611269,
+      "axisLimit": false,
+      "axisLimitProbeDeg": null
+    },
+    {
+      "fieldDeg": 14.0,
+      "wavelengthNm": 486.0,
+      "percent": -1.296508330691236,
+      "axisLimit": false,
+      "axisLimitProbeDeg": null
+    },
+    {
+      "fieldDeg": 14.0,
+      "wavelengthNm": 588.0,
+      "percent": -1.2966247951489145,
+      "axisLimit": false,
+      "axisLimitProbeDeg": null
+    },
+    {
+      "fieldDeg": 14.0,
+      "wavelengthNm": 656.0,
+      "percent": -1.2938798211675084,
+      "axisLimit": false,
+      "axisLimitProbeDeg": null
+    }
+  ],
+  "constraints": [
+    {
+      "name": "object_at_infinity",
+      "value": true,
+      "minimum": null,
+      "maximum": null,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "effective_focal_length_mm",
+      "value": 50.00001216586651,
+      "minimum": 49.5,
+      "maximum": 50.5,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "f_number",
+      "value": 4.00000097326932,
+      "minimum": 3.92,
+      "maximum": 4.08,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_count",
+      "value": 6,
+      "minimum": 3,
+      "maximum": 6,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "spherical_surfaces_only",
+      "value": true,
+      "minimum": null,
+      "maximum": null,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "stop_inside_optical_system",
+      "value": 6,
+      "minimum": null,
+      "maximum": null,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "supported_catalog_glasses",
+      "value": true,
+      "minimum": null,
+      "maximum": null,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": "All material identities were resolved by strict project validation."
+    },
+    {
+      "name": "back_focal_distance_mm",
+      "value": 33.578527372475364,
+      "minimum": 10.0,
+      "maximum": null,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "total_track_mm",
+      "value": 71.74727199030625,
+      "minimum": null,
+      "maximum": 80.0,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "specified_fields_equal_weights",
+      "value": [
+        0.0,
+        7.0,
+        10.0,
+        12.0,
+        14.0
+      ],
+      "minimum": null,
+      "maximum": null,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "specified_wavelengths_equal_weights",
+      "value": [
+        486.0,
+        588.0,
+        656.0
+      ],
+      "minimum": null,
+      "maximum": null,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "distortion_percent_field_0_wave_486",
+      "value": 0.05802868602105169,
+      "minimum": null,
+      "maximum": 2.0,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": "On-axis value uses the small-angle chief-ray limit."
+    },
+    {
+      "name": "distortion_percent_field_0_wave_588",
+      "value": 0.07229952469926175,
+      "minimum": null,
+      "maximum": 2.0,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": "On-axis value uses the small-angle chief-ray limit."
+    },
+    {
+      "name": "distortion_percent_field_0_wave_656",
+      "value": 0.07708705347866282,
+      "minimum": null,
+      "maximum": 2.0,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": "On-axis value uses the small-angle chief-ray limit."
+    },
+    {
+      "name": "distortion_percent_field_7_wave_486",
+      "value": 0.33752753161940807,
+      "minimum": null,
+      "maximum": 2.0,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": "Primary-wavelength f-tan scale, checked at every active wavelength."
+    },
+    {
+      "name": "distortion_percent_field_7_wave_588",
+      "value": 0.34877193894956987,
+      "minimum": null,
+      "maximum": 2.0,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": "Primary-wavelength f-tan scale, checked at every active wavelength."
+    },
+    {
+      "name": "distortion_percent_field_7_wave_656",
+      "value": 0.3519193510378687,
+      "minimum": null,
+      "maximum": 2.0,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": "Primary-wavelength f-tan scale, checked at every active wavelength."
+    },
+    {
+      "name": "distortion_percent_field_10_wave_486",
+      "value": 0.6486488783789127,
+      "minimum": null,
+      "maximum": 2.0,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": "Primary-wavelength f-tan scale, checked at every active wavelength."
+    },
+    {
+      "name": "distortion_percent_field_10_wave_588",
+      "value": 0.6564178361902411,
+      "minimum": null,
+      "maximum": 2.0,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": "Primary-wavelength f-tan scale, checked at every active wavelength."
+    },
+    {
+      "name": "distortion_percent_field_10_wave_656",
+      "value": 0.6577024327187244,
+      "minimum": null,
+      "maximum": 2.0,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": "Primary-wavelength f-tan scale, checked at every active wavelength."
+    },
+    {
+      "name": "distortion_percent_field_12_wave_486",
+      "value": 0.9349599010869971,
+      "minimum": null,
+      "maximum": 2.0,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": "Primary-wavelength f-tan scale, checked at every active wavelength."
+    },
+    {
+      "name": "distortion_percent_field_12_wave_588",
+      "value": 0.9394202293074359,
+      "minimum": null,
+      "maximum": 2.0,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": "Primary-wavelength f-tan scale, checked at every active wavelength."
+    },
+    {
+      "name": "distortion_percent_field_12_wave_656",
+      "value": 0.9389509423611269,
+      "minimum": null,
+      "maximum": 2.0,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": "Primary-wavelength f-tan scale, checked at every active wavelength."
+    },
+    {
+      "name": "distortion_percent_field_14_wave_486",
+      "value": 1.296508330691236,
+      "minimum": null,
+      "maximum": 2.0,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": "Primary-wavelength f-tan scale, checked at every active wavelength."
+    },
+    {
+      "name": "distortion_percent_field_14_wave_588",
+      "value": 1.2966247951489145,
+      "minimum": null,
+      "maximum": 2.0,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": "Primary-wavelength f-tan scale, checked at every active wavelength."
+    },
+    {
+      "name": "distortion_percent_field_14_wave_656",
+      "value": 1.2938798211675084,
+      "minimum": null,
+      "maximum": 2.0,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": "Primary-wavelength f-tan scale, checked at every active wavelength."
+    },
+    {
+      "name": "element_1_2_center_thickness_mm",
+      "value": 4.165277088671429,
+      "minimum": 2.0,
+      "maximum": null,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_1_2_edge_thickness_mm",
+      "value": 2.0735388531771974,
+      "minimum": 1.0,
+      "maximum": null,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": "Mechanical radius 12.7355509 mm; common spherical branch."
+    },
+    {
+      "name": "element_3_4_center_thickness_mm",
+      "value": 6.70327784354119,
+      "minimum": 2.0,
+      "maximum": null,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_3_4_edge_thickness_mm",
+      "value": 3.460254041690139,
+      "minimum": 1.0,
+      "maximum": null,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": "Mechanical radius 10.9162597 mm; common spherical branch."
+    },
+    {
+      "name": "element_4_5_center_thickness_mm",
+      "value": 2.340554049998131,
+      "minimum": 2.0,
+      "maximum": null,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_4_5_edge_thickness_mm",
+      "value": 10.18101609243441,
+      "minimum": 1.0,
+      "maximum": null,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": "Mechanical radius 10.9162597 mm; common spherical branch."
+    },
+    {
+      "name": "element_7_8_center_thickness_mm",
+      "value": 2.6213266930885872,
+      "minimum": 2.0,
+      "maximum": null,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_7_8_edge_thickness_mm",
+      "value": 6.485683808327208,
+      "minimum": 1.0,
+      "maximum": null,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": "Mechanical radius 8.94803425 mm; common spherical branch."
+    },
+    {
+      "name": "element_8_9_center_thickness_mm",
+      "value": 5.918861878734617,
+      "minimum": 2.0,
+      "maximum": null,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_8_9_edge_thickness_mm",
+      "value": 3.102341490074731,
+      "minimum": 1.0,
+      "maximum": null,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": "Mechanical radius 8.94803425 mm; common spherical branch."
+    },
+    {
+      "name": "element_10_11_center_thickness_mm",
+      "value": 2.8755564429748333,
+      "minimum": 2.0,
+      "maximum": null,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_10_11_edge_thickness_mm",
+      "value": 1.050100051957028,
+      "minimum": 1.0,
+      "maximum": null,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": "Mechanical radius 10.0187455 mm; common spherical branch."
+    },
+    {
+      "name": "physical_air_clearance_2_3_mm",
+      "value": 0.10007326904608771,
+      "minimum": 0.0,
+      "maximum": null,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": "Extra nominal-solid guard at the full common mechanical radius; not a tolerance or assembly qualification."
+    },
+    {
+      "name": "physical_air_clearance_5_7_mm",
+      "value": 5.652128323704959,
+      "minimum": 0.0,
+      "maximum": null,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": "Extra nominal-solid guard at the full common mechanical radius; not a tolerance or assembly qualification."
+    },
+    {
+      "name": "physical_air_clearance_9_10_mm",
+      "value": 0.10029710426575633,
+      "minimum": 0.0,
+      "maximum": null,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": "Extra nominal-solid guard at the full common mechanical radius; not a tolerance or assembly qualification."
+    },
+    {
+      "name": "complete_sampled_pupil_transmission",
+      "value": true,
+      "minimum": null,
+      "maximum": null,
+      "passed": true,
+      "violation": 0.0,
+      "penalty": 0.0,
+      "detail": null
+    }
+  ],
+  "allConstraintsPassed": true,
+  "objective": 0.032761180321397264,
+  "normalizedMeanObjective": 0.006552236064279453,
+  "penalty": 0.0,
+  "localMerit": 0.032761180321397264,
+  "cpu": {
+    "workers": 4,
+    "elapsedSeconds": 0.1978183999999601
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.16.3",
+    "optiland": "0.6.2.post234+ga9e544a2"
+  },
+  "projectSha256": "7f7a60815830beb75f70160868aad4e7eca5d8febc688b613037e6a0ad4c5ee9",
+  "notVerified": [
+    "official ranking or server scoring",
+    "manufacturing tolerances",
+    "mounting path",
+    "coatings/polarization"
+  ],
+  "optiland": {
+    "scope": "Optiland catalog material + independent intersection/refraction, identical explicit pupil rays",
+    "allValidMasksMatch": true,
+    "maxInterceptDifferenceMm": 5.861977570020827e-14,
+    "rms": [
+      {
+        "fieldDeg": 0.0,
+        "rmsUm": 2.0009588030052865
+      },
+      {
+        "fieldDeg": 7.0,
+        "rmsUm": 1.9774896487773328
+      },
+      {
+        "fieldDeg": 10.0,
+        "rmsUm": 1.9111310399053656
+      },
+      {
+        "fieldDeg": 12.0,
+        "rmsUm": 1.6299110010032882
+      },
+      {
+        "fieldDeg": 14.0,
+        "rmsUm": 2.500480860886069
+      }
+    ],
+    "maxRmsDifferenceUm": 1.9624302183274267e-12,
+    "localMerit": 0.032761180321415506
+  },
+  "cuda": {
+    "groups": 15,
+    "rays": 28800,
+    "allValidMasksMatch": true,
+    "maxInterceptDifferenceMm": 0.0,
+    "maxDirectionDifference": 0.0,
+    "elapsedSecondsIncludingFirstKernel": 1.1372733999996854,
+    "maxWavefrontRmsDifferenceWaves": 0.0
+  },
+  "wavefrontDiagnostic": {
+    "definition": "Chief reference sphere, weighted piston+direction-cosine tilt removed; defocus retained. Diagnostic only, not the contest objective.",
+    "rows": [
+      {
+        "fieldDeg": 0.0,
+        "wavelengthNm": 486.0,
+        "rmsWaves": 0.05287710411505263,
+        "cpuGpuDifferenceWaves": 0.0
+      },
+      {
+        "fieldDeg": 0.0,
+        "wavelengthNm": 588.0,
+        "rmsWaves": 0.04072312186944115,
+        "cpuGpuDifferenceWaves": 0.0
+      },
+      {
+        "fieldDeg": 0.0,
+        "wavelengthNm": 656.0,
+        "rmsWaves": 0.11120515259364643,
+        "cpuGpuDifferenceWaves": 0.0
+      },
+      {
+        "fieldDeg": 7.0,
+        "wavelengthNm": 486.0,
+        "rmsWaves": 0.09076843540513677,
+        "cpuGpuDifferenceWaves": 0.0
+      },
+      {
+        "fieldDeg": 7.0,
+        "wavelengthNm": 588.0,
+        "rmsWaves": 0.06978975255482096,
+        "cpuGpuDifferenceWaves": 0.0
+      },
+      {
+        "fieldDeg": 7.0,
+        "wavelengthNm": 656.0,
+        "rmsWaves": 0.10374955787041129,
+        "cpuGpuDifferenceWaves": 0.0
+      },
+      {
+        "fieldDeg": 10.0,
+        "wavelengthNm": 486.0,
+        "rmsWaves": 0.09839125860252858,
+        "cpuGpuDifferenceWaves": 0.0
+      },
+      {
+        "fieldDeg": 10.0,
+        "wavelengthNm": 588.0,
+        "rmsWaves": 0.0843486407202023,
+        "cpuGpuDifferenceWaves": 0.0
+      },
+      {
+        "fieldDeg": 10.0,
+        "wavelengthNm": 656.0,
+        "rmsWaves": 0.08171165679629594,
+        "cpuGpuDifferenceWaves": 0.0
+      },
+      {
+        "fieldDeg": 12.0,
+        "wavelengthNm": 486.0,
+        "rmsWaves": 0.05712287546686148,
+        "cpuGpuDifferenceWaves": 0.0
+      },
+      {
+        "fieldDeg": 12.0,
+        "wavelengthNm": 588.0,
+        "rmsWaves": 0.08826389385141847,
+        "cpuGpuDifferenceWaves": 0.0
+      },
+      {
+        "fieldDeg": 12.0,
+        "wavelengthNm": 656.0,
+        "rmsWaves": 0.03475517395714348,
+        "cpuGpuDifferenceWaves": 0.0
+      },
+      {
+        "fieldDeg": 14.0,
+        "wavelengthNm": 486.0,
+        "rmsWaves": 0.10330188253866404,
+        "cpuGpuDifferenceWaves": 0.0
+      },
+      {
+        "fieldDeg": 14.0,
+        "wavelengthNm": 588.0,
+        "rmsWaves": 0.16270094581210262,
+        "cpuGpuDifferenceWaves": 0.0
+      },
+      {
+        "fieldDeg": 14.0,
+        "wavelengthNm": 656.0,
+        "rmsWaves": 0.09076263738873538,
+        "cpuGpuDifferenceWaves": 0.0
+      }
+    ]
+  },
+  "elapsedSeconds": 6.479691399999865,
+  "passed": true
+}
