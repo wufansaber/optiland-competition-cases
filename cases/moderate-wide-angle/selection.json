@@ -1,0 +1,68 @@
+{
+  "acceptedProject": "final.project.json",
+  "sourceWinnerAccepted": false,
+  "sourceWinner": "candidate_00008",
+  "sourceCandidateCount": 15,
+  "sourceEligibleCount": 15,
+  "curvatureSurfaces": [
+    2,
+    7,
+    12
+  ],
+  "deltaCurvatureBoundsInvMm": [
+    -2e-05,
+    2e-05
+  ],
+  "coarsePupil": [
+    6,
+    24
+  ],
+  "denseCpuPupil": [
+    20,
+    64
+  ],
+  "denseFinalistsIncludingBaseline": 8,
+  "sourceRole": "Unchanged standalone-optics WFE-ranked candidate generation and screening. Final scalar objective is a separate definition.",
+  "cpuTiming": {
+    "coarse_backend": "cpu",
+    "serial_seconds": 0.9501132000000325,
+    "pool_start_and_warmup_seconds": 0.530848600000354,
+    "coarse_seconds": 0.301948799999991,
+    "serial_parallel_scores_identical": true,
+    "warmed_speedup": 3.1466036626079017,
+    "dense_seconds": 0.7970854000000145
+  },
+  "cudaTiming": {
+    "coarse_backend": "cuda",
+    "serial_seconds": 0.9091997000000447,
+    "cuda_start_and_warmup_seconds": 3.4023535999999694,
+    "coarse_seconds": 0.11239329999989423,
+    "cuda_verification": {
+      "serial_cuda_rank_identical": true,
+      "max_wfe_delta_waves": 7.105427357601002e-15,
+      "max_spot_delta_um": 2.2737367544323206e-13,
+      "wfe_tolerance_waves": 2e-08,
+      "spot_tolerance_um": 1e-06
+    },
+    "warmed_speedup": 8.089447502661638,
+    "dense_seconds": 0.825845400000162
+  },
+  "comparisonMethod": "512-grid discrete-lag/FFT scalar OTF local metric for source-stage accept/reject; final retained baseline receives exact-frequency continuous512 evaluation.",
+  "comparison": [
+    {
+      "name": "geometric-1",
+      "passed": true,
+      "P": 0.0,
+      "localMerit": 4.982614850248119
+    },
+    {
+      "name": "source-winner",
+      "passed": true,
+      "P": 0.0,
+      "localMerit": 4.9940542339026095
+    }
+  ],
+  "finalMethod": "Native Optiland OPL with continuous shifted-pupil overlap at exactly20lp/mm; complex spectral average then magnitude, mean(T,S), same fixed plane.",
+  "noGlobalOptimumClaim": true,
+  "noFullPsfConvergenceClaim": true
+}

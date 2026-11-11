@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "file": "submission.ipynb",
+  "bytes": 230287,
+  "sha256": "d47f839fea62fa77d22a809029aa4543d405b91a4683f5acdacab86fae5e47e9",
+  "executedCodeCells": 6,
+  "errorOutputs": 0,
+  "pngOutputs": [
+    {
+      "width": 393,
+      "height": 371
+    },
+    {
+      "width": 1030,
+      "height": 359
+    }
+  ],
+  "scope": "Stored execution and publication hygiene only; optical calculations are not rerun.",
+  "visualInspection": "Both stored PNGs rendered and inspected; readable axes/units, fixed front-stop layout, separate S/T and scalar mean, distortion, explicit poor image quality."
+}

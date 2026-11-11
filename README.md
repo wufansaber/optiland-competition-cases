@@ -8,6 +8,7 @@ Challenges: [Optiland competitions](https://www.optiland.org/competitions).
 | --- | --- | --- | --- |
 | Minimize RMS Spot Size | [Executed notebook](cases/minimize-rms-spot/submission.ipynb) | All declared constraints pass; P = 0 | Received — user-confirmed, 2026-11-10 |
 | Design an Achromatic Doublet | [Executed notebook](cases/achromatic-doublet/submission.ipynb) | All declared constraints pass; P = 0 | Received — user-confirmed, 2026-11-11 |
+| Moderate Wide-Angle Lens Optimization | [Executed notebook](cases/moderate-wide-angle/submission.ipynb) | Nominal constraints pass; P = 0; poor image quality disclosed | Ready to submit |
 
 Each notebook includes a frozen prescription, pinned dependencies, calculation definitions, executed outputs and source attribution. Local merit values are not official server scores or rankings. Run all cells to reproduce the results.
 
@@ -18,6 +19,8 @@ The notebooks retain Optiland's MIT notice and identify the exact standalone-opt
 Submission receipts and numerical verification are separate records. [First-case receipt](cases/minimize-rms-spot/submission-status.json) records the user-reported success screen; no official score has been observed or assigned here.
 
 The second case uses an air-spaced N-BK7/F2 pair on one fixed 588 nm Gaussian image plane. Its local merit is approximately 0.047910. The selected nominal design has center thicknesses of 30.000 and 19.464 mm; the notebook also reports a comparison with a 14 mm thickness cap. The F-C axial Gaussian focus separation is 0.46443 mm, reported separately from the lateral-color objective. These results establish the declared nominal checks, with no tolerance or fabrication certification.
+
+The third case is a constrained numerical benchmark with poor MTF. Its local merit is approximately 4.982167. The six-element prescription satisfies the declared nominal rules, with a fixed physical front stop. Exact-frequency scalar pupil overlap at 20 lp/mm is checked at two densities; the maximum S/T change is 0.00010967. The notebook retains the approximately 31-degree chief-angle limitation and unresolved full-pupil phase sampling, and makes no full PSF or complete MTF-curve accuracy claim. [Case details](cases/moderate-wide-angle/README.md).
 
 To check stored execution, PNG outputs and publication hygiene before sharing a notebook:
 

@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "name": "Moderate Wide Angle \u00b7 bounded candidate 1",
+  "objectAtInfinity": true,
+  "fieldType": "angle",
+  "fields": [
+    0.0,
+    10.0,
+    20.0,
+    30.0
+  ],
+  "primaryWavelength": 1,
+  "aperture": 6.0,
+  "rayAiming": {
+    "mode": "off"
+  },
+  "wavelengths": [
+    {
+      "value": 486.0,
+      "weight": 1.0
+    },
+    {
+      "value": 588.0,
+      "weight": 1.0
+    },
+    {
+      "value": 656.0,
+      "weight": 1.0
+    }
+  ],
+  "description": "Self-created weak spherical singlets from thin-power estimates; 6mm flat entrance stop. Provisional reference seed, no gallery/private prescription.",
+  "surfaces": [
+    {
+      "id": 0,
+      "type": "object",
+      "radius": null,
+      "thickness": null,
+      "material": "AIR",
+      "semiDiameter": 3.0,
+      "conic": 0.0,
+      "asphere": [],
+      "surfaceType": "STANDARD"
+    },
+    {
+      "id": 1,
+      "type": "stop",
+      "radius": null,
+      "thickness": 0.05000000000000001,
+      "material": "AIR",
+      "semiDiameter": 3.0,
+      "conic": 0.0,
+      "asphere": [],
+      "surfaceType": "STANDARD"
+    },
+    {
+      "id": 2,
+      "type": "standard",
+      "radius": 34.957531171001065,
+      "thickness": 2.05005469873843,
+      "material": "SCHOTT:N-BK7",
+      "semiDiameter": 3.799010624750863,
+      "conic": 0.0,
+      "asphere": [],
+      "surfaceType": "STANDARD"
+    },
+    {
+      "id": 3,
+      "type": "standard",
+      "radius": -39.68555403598805,
+      "thickness": 0.08313205128902124,
+      "material": "AIR",
+      "semiDiameter": 3.799010624750863,
+      "conic": 0.0,
+      "asphere": [],
+      "surfaceType": "STANDARD"
+    },
+    {
+      "id": 4,
+      "type": "standard",
+      "radius": 210.26562521189214,
+      "thickness": 2.238797465397293,
+      "material": "SCHOTT:F2",
+      "semiDiameter": 4.465166771307759,
+      "conic": 0.0,
+      "asphere": [],
+      "surfaceType": "STANDARD"
+    },
+    {
+      "id": 5,
+      "type": "standard",
+      "radius": -748.9736171975695,
+      "thickness": 0.0500411846826471,
+      "material": "AIR",
+      "semiDiameter": 4.465166771307759,
+      "conic": 0.0,
+      "asphere": [],
+      "surfaceType": "STANDARD"
+    },
+    {
+      "id": 6,
+      "type": "standard",
+      "radius": 58.166866891865766,
+      "thickness": 2.407722236287262,
+      "material": "SCHOTT:N-BK7",
+      "semiDiameter": 5.024582246971825,
+      "conic": 0.0,
+      "asphere": [],
+      "surfaceType": "STANDARD"
+    },
+    {
+      "id": 7,
+      "type": "standard",
+      "radius": -49.84056281863533,
+      "thickness": 0.972495005921467,
+      "material": "AIR",
+      "semiDiameter": 5.024582246971825,
+      "conic": 0.0,
+      "asphere": [],
+      "surfaceType": "STANDARD"
+    },
+    {
+      "id": 8,
+      "type": "standard",
+      "radius": -246.52535316965552,
+      "thickness": 2.4562388411802685,
+      "material": "SCHOTT:F2",
+      "semiDiameter": 5.886081849268406,
+      "conic": 0.0,
+      "asphere": [],
+      "surfaceType": "STANDARD"
+    },
+    {
+      "id": 9,
+      "type": "standard",
+      "radius": 112.40428853151151,
+      "thickness": 0.48552002173590875,
+      "material": "AIR",
+      "semiDiameter": 5.886081849268406,
+      "conic": 0.0,
+      "asphere": [],
+      "surfaceType": "STANDARD"
+    },
+    {
+      "id": 10,
+      "type": "standard",
+      "radius": 124.3579332240293,
+      "thickness": 2.287815628244523,
+      "material": "SCHOTT:N-BK7",
+      "semiDiameter": 6.445991927239596,
+      "conic": 0.0,
+      "asphere": [],
+      "surfaceType": "STANDARD"
+    },
+    {
+      "id": 11,
+      "type": "standard",
+      "radius": -66.00702499980277,
+      "thickness": 1.2209426552212534,
+      "material": "AIR",
+      "semiDiameter": 6.445991927239596,
+      "conic": 0.0,
+      "asphere": [],
+      "surfaceType": "STANDARD"
+    },
+    {
+      "id": 12,
+      "type": "standard",
+      "radius": -109.57175763867386,
+      "thickness": 2.050318638486183,
+      "material": "SCHOTT:F2",
+      "semiDiameter": 7.308850097339032,
+      "conic": 0.0,
+      "asphere": [],
+      "surfaceType": "STANDARD"
+    },
+    {
+      "id": 13,
+      "type": "standard",
+      "radius": 61.491484774319716,
+      "thickness": 13.33645156872651,
+      "material": "AIR",
+      "semiDiameter": 7.308850097339032,
+      "conic": 0.0,
+      "asphere": [],
+      "surfaceType": "STANDARD"
+    },
+    {
+      "id": 14,
+      "type": "image",
+      "radius": null,
+      "thickness": 0.0,
+      "material": "AIR",
+      "semiDiameter": 16.409250023068015,
+      "conic": 0.0,
+      "asphere": [],
+      "surfaceType": "STANDARD"
+    }
+  ],
+  "analysis": {
+    "mtfSamples": 64
+  },
+  "fieldDefinitions": [
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "weight": 1.0
+    },
+    {
+      "x": 0.0,
+      "y": 10.0,
+      "weight": 1.0
+    },
+    {
+      "x": 0.0,
+      "y": 20.0,
+      "weight": 1.0
+    },
+    {
+      "x": 0.0,
+      "y": 30.0,
+      "weight": 1.0
+    }
+  ],
+  "fieldWeights": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "fieldUnit": "deg",
+  "apertureType": "enpd",
+  "apertureValue": 6.0,
+  "apodization": {
+    "type": "uniform",
+    "factor": 0.0
+  },
+  "objectDistance": null
+}

@@ -1,0 +1,26 @@
+{
+  "createdUtc": "2026-11-11T03:25:32.862232+00:00",
+  "passed": true,
+  "testsRun": 12,
+  "testIds": [
+    "independent_audit.PrimitiveTests.test_complete_radius_minimum_matches_dense_domain",
+    "independent_audit.PrimitiveTests.test_complex_spectral_sum_precedes_magnitude",
+    "independent_audit.PrimitiveTests.test_configuration_violation_gates_receive_positive_penalties",
+    "independent_audit.PrimitiveTests.test_continuous_overlap_at_exact_shift_normalizes_to_full_pupil",
+    "independent_audit.PrimitiveTests.test_direct_overlap_agrees_fft_random_complex_pupil",
+    "independent_audit.PrimitiveTests.test_dummy_glass_plane_does_not_add_element",
+    "independent_audit.PrimitiveTests.test_fractional_distortion_scale_and_no_invented_limit",
+    "independent_audit.PrimitiveTests.test_invalid_domain_and_spectral_weights_rejected",
+    "independent_audit.PrimitiveTests.test_native_boundary_tolerance_does_not_resize_physical_stop",
+    "independent_audit.PrimitiveTests.test_negative_center_gap_cannot_hide_behind_positive_edge",
+    "independent_audit.PrimitiveTests.test_tangential_sagittal_reduction_explicit_mean",
+    "independent_audit.PrimitiveTests.test_unaberrated_circle_matches_analytic_otf"
+  ],
+  "elapsedSeconds": 3.8172310999998444,
+  "auditImplementationSha256": "008293925bcbce67e00c522aef1b3686fe7259f5ba19ca5309dcebc4caacfce7",
+  "nativeEvaluatorSha256": "7417e3348dd31d6696a2ee3b377c50244723e5eea7db66e77fb35c68f543038a",
+  "frozenProjectSha256": "894652613d4c3dfe541a6dcd806a754470d5a42c44e0f42c9197156613e7fd79",
+  "officialScore": false,
+  "scope": "Developer auditor primitive/configuration regressions; the public notebook has no Optiwork dependency.",
+  "compatibilityNote": "Single-element NumPy scalar extraction now uses .item() to avoid deprecation stderr paths. The scalar optical values and frozen numeric results are unchanged; primitive/configuration tests were rerun against this evaluator."
+}

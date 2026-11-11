@@ -1,0 +1,1274 @@
+{
+  "createdUtc": "2026-11-11T03:16:48.426422+00:00",
+  "competition": "Moderate Wide-Angle Lens Optimization",
+  "competitionId": "d0d73808-3180-4ca2-b91e-e1d71cd79a86",
+  "sourceFileSha256": "894652613d4c3dfe541a6dcd806a754470d5a42c44e0f42c9197156613e7fd79",
+  "officialScore": false,
+  "passed": true,
+  "penalty": 0.0,
+  "localMerit": 4.982166755940591,
+  "constraints": [
+    {
+      "name": "object_at_infinity",
+      "passed": true,
+      "value": true,
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "spherical_only",
+      "passed": true,
+      "value": null,
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "specified_fields",
+      "passed": true,
+      "value": [
+        0.0,
+        10.0,
+        20.0,
+        30.0
+      ],
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "full_fov_degrees",
+      "passed": true,
+      "value": 60.0,
+      "minimum": 60.0,
+      "maximum": null,
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "specified_equal_weight_wavelengths",
+      "passed": true,
+      "value": [
+        486.0,
+        588.0,
+        656.0
+      ],
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "uniform_entrance_pupil_and_physical_angles",
+      "passed": true,
+      "value": null,
+      "scope": "local_convention",
+      "penalty": 0.0,
+      "detail": "Primary 588nm; fixed physical fields for every color; uniform incoming pupil."
+    },
+    {
+      "name": "local_field_weights_one",
+      "passed": true,
+      "value": null,
+      "scope": "local_convention",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "physical_stop_vs_declared_paraxial_epd_radius_error_mm",
+      "passed": true,
+      "value": 0.0,
+      "minimum": null,
+      "maximum": 1e-08,
+      "scope": "aperture_consistency",
+      "penalty": 0.0,
+      "detail": "No arbitrary enlargement of the physical stop while keeping the declared EPD/f-number."
+    },
+    {
+      "name": "flat_front_air_stop_contract",
+      "passed": true,
+      "value": null,
+      "scope": "local_pupil_model_contract",
+      "penalty": 0.0,
+      "detail": "A fixed physical plane stop before powered surfaces makes the uniform entrance pupil exactly defined at all fields. Internal-stop alternatives require an explicitly validated aiming model."
+    },
+    {
+      "name": "physical_element_count",
+      "passed": true,
+      "value": 6.0,
+      "minimum": 5,
+      "maximum": 8,
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "efl_mm",
+      "passed": true,
+      "value": 23.999925260715486,
+      "minimum": 23.52,
+      "maximum": 24.48,
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "f_number",
+      "passed": true,
+      "value": 3.999987543452581,
+      "minimum": 3.8,
+      "maximum": 4.2,
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_1_supported_catalog_glass",
+      "passed": true,
+      "value": "SCHOTT:N-BK7",
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_1_ct_mm",
+      "passed": true,
+      "value": 2.05005469873843,
+      "minimum": 2.0,
+      "maximum": null,
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_1_edge_thickness_mm",
+      "passed": true,
+      "value": 1.6607588348605091,
+      "minimum": 1.0,
+      "maximum": null,
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_1_full_radius_minimum_mm",
+      "passed": true,
+      "value": 1.6607588348605091,
+      "minimum": 1.0,
+      "maximum": null,
+      "scope": "additional_nominal_solid_guard",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_2_supported_catalog_glass",
+      "passed": true,
+      "value": "SCHOTT:F2",
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_2_ct_mm",
+      "passed": true,
+      "value": 2.238797465397293,
+      "minimum": 2.0,
+      "maximum": null,
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_2_edge_thickness_mm",
+      "passed": true,
+      "value": 2.178071197101674,
+      "minimum": 1.0,
+      "maximum": null,
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_2_full_radius_minimum_mm",
+      "passed": true,
+      "value": 2.178071197101674,
+      "minimum": 1.0,
+      "maximum": null,
+      "scope": "additional_nominal_solid_guard",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_3_supported_catalog_glass",
+      "passed": true,
+      "value": "SCHOTT:N-BK7",
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_3_ct_mm",
+      "passed": true,
+      "value": 2.4077222362872615,
+      "minimum": 2.0,
+      "maximum": null,
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_3_edge_thickness_mm",
+      "passed": true,
+      "value": 1.9363799350692874,
+      "minimum": 1.0,
+      "maximum": null,
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_3_full_radius_minimum_mm",
+      "passed": true,
+      "value": 1.9363799350692874,
+      "minimum": 1.0,
+      "maximum": null,
+      "scope": "additional_nominal_solid_guard",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_4_supported_catalog_glass",
+      "passed": true,
+      "value": "SCHOTT:F2",
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_4_ct_mm",
+      "passed": true,
+      "value": 2.4562388411802685,
+      "minimum": 2.0,
+      "maximum": null,
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_4_edge_thickness_mm",
+      "passed": true,
+      "value": 2.680736362654495,
+      "minimum": 1.0,
+      "maximum": null,
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_4_full_radius_minimum_mm",
+      "passed": true,
+      "value": 2.4562388411802685,
+      "minimum": 1.0,
+      "maximum": null,
+      "scope": "additional_nominal_solid_guard",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_5_supported_catalog_glass",
+      "passed": true,
+      "value": "SCHOTT:N-BK7",
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_5_ct_mm",
+      "passed": true,
+      "value": 2.2878156282445232,
+      "minimum": 2.0,
+      "maximum": null,
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_5_edge_thickness_mm",
+      "passed": true,
+      "value": 1.805142512201265,
+      "minimum": 1.0,
+      "maximum": null,
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_5_full_radius_minimum_mm",
+      "passed": true,
+      "value": 1.805142512201265,
+      "minimum": 1.0,
+      "maximum": null,
+      "scope": "additional_nominal_solid_guard",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_6_supported_catalog_glass",
+      "passed": true,
+      "value": "SCHOTT:F2",
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_6_ct_mm",
+      "passed": true,
+      "value": 2.050318638486184,
+      "minimum": 2.0,
+      "maximum": null,
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_6_edge_thickness_mm",
+      "passed": true,
+      "value": 2.7302627181918284,
+      "minimum": 1.0,
+      "maximum": null,
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "element_6_full_radius_minimum_mm",
+      "passed": true,
+      "value": 2.050318638486184,
+      "minimum": 1.0,
+      "maximum": null,
+      "scope": "additional_nominal_solid_guard",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "back_focal_distance_mm",
+      "passed": true,
+      "value": 13.33645156872651,
+      "minimum": 12.0,
+      "maximum": null,
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "total_track_length_mm",
+      "passed": true,
+      "value": 29.639529995910767,
+      "minimum": null,
+      "maximum": 80.0,
+      "scope": "public_rule",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "air_gap_3_4_minimum_mm",
+      "passed": true,
+      "value": 0.08313205128902101,
+      "minimum": 0.0,
+      "maximum": null,
+      "scope": "additional_nominal_solid_guard",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "air_gap_3_4_rim_mm",
+      "passed": true,
+      "value": 0.31280213026171705,
+      "minimum": 0.0,
+      "maximum": null,
+      "scope": "additional_nominal_rim_convention",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "air_gap_5_6_minimum_mm",
+      "passed": true,
+      "value": 0.05004118468264718,
+      "minimum": 0.0,
+      "maximum": null,
+      "scope": "additional_nominal_solid_guard",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "air_gap_5_6_rim_mm",
+      "passed": true,
+      "value": 0.2807749323730991,
+      "minimum": 0.0,
+      "maximum": null,
+      "scope": "additional_nominal_rim_convention",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "air_gap_7_8_minimum_mm",
+      "passed": true,
+      "value": 0.9724950059214672,
+      "minimum": 0.0,
+      "maximum": null,
+      "scope": "additional_nominal_solid_guard",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "air_gap_7_8_rim_mm",
+      "passed": true,
+      "value": 1.1561351320844038,
+      "minimum": 0.0,
+      "maximum": null,
+      "scope": "additional_nominal_rim_convention",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "air_gap_9_10_minimum_mm",
+      "passed": true,
+      "value": 0.4706785298707927,
+      "minimum": 0.0,
+      "maximum": null,
+      "scope": "additional_nominal_solid_guard",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "air_gap_9_10_rim_mm",
+      "passed": true,
+      "value": 0.4984747998397811,
+      "minimum": 0.0,
+      "maximum": null,
+      "scope": "additional_nominal_rim_convention",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "air_gap_11_12_minimum_mm",
+      "passed": true,
+      "value": 1.2209426552212541,
+      "minimum": 0.0,
+      "maximum": null,
+      "scope": "additional_nominal_solid_guard",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "air_gap_11_12_rim_mm",
+      "passed": true,
+      "value": 1.2924063325318336,
+      "minimum": 0.0,
+      "maximum": null,
+      "scope": "additional_nominal_rim_convention",
+      "penalty": 0.0,
+      "detail": null
+    },
+    {
+      "name": "all_colors_full_pupil_and_exact_rim_transmission",
+      "value": 0,
+      "passed": true,
+      "scope": "numerical_integrity",
+      "penalty": 0.0
+    },
+    {
+      "name": "independent_direct_overlap_agrees_fft",
+      "value": 6.867055752160511e-13,
+      "passed": true,
+      "scope": "same_scalar_model_numerical_crosscheck",
+      "penalty": 0.0
+    }
+  ],
+  "elements": [
+    {
+      "front": 2,
+      "rear": 3,
+      "material": "SCHOTT:N-BK7",
+      "centerThicknessMm": 2.05005469873843,
+      "mechanicalRadiusMm": 3.799010624750863,
+      "thickness": {
+        "centerMm": 2.05005469873843,
+        "edgeMm": 1.6607588348605091,
+        "minimumMm": 1.6607588348605091,
+        "radiusMm": 3.799010624750863,
+        "extrema": "Exact spherical center/edge extrema"
+      }
+    },
+    {
+      "front": 4,
+      "rear": 5,
+      "material": "SCHOTT:F2",
+      "centerThicknessMm": 2.238797465397293,
+      "mechanicalRadiusMm": 4.465166771307759,
+      "thickness": {
+        "centerMm": 2.238797465397293,
+        "edgeMm": 2.178071197101674,
+        "minimumMm": 2.178071197101674,
+        "radiusMm": 4.465166771307759,
+        "extrema": "Exact spherical center/edge extrema"
+      }
+    },
+    {
+      "front": 6,
+      "rear": 7,
+      "material": "SCHOTT:N-BK7",
+      "centerThicknessMm": 2.4077222362872615,
+      "mechanicalRadiusMm": 5.024582246971825,
+      "thickness": {
+        "centerMm": 2.4077222362872615,
+        "edgeMm": 1.9363799350692874,
+        "minimumMm": 1.9363799350692874,
+        "radiusMm": 5.024582246971825,
+        "extrema": "Exact spherical center/edge extrema"
+      }
+    },
+    {
+      "front": 8,
+      "rear": 9,
+      "material": "SCHOTT:F2",
+      "centerThicknessMm": 2.4562388411802685,
+      "mechanicalRadiusMm": 5.886081849268406,
+      "thickness": {
+        "centerMm": 2.4562388411802685,
+        "edgeMm": 2.680736362654495,
+        "minimumMm": 2.4562388411802685,
+        "radiusMm": 5.886081849268406,
+        "extrema": "Exact spherical center/edge extrema"
+      }
+    },
+    {
+      "front": 10,
+      "rear": 11,
+      "material": "SCHOTT:N-BK7",
+      "centerThicknessMm": 2.2878156282445232,
+      "mechanicalRadiusMm": 6.445991927239596,
+      "thickness": {
+        "centerMm": 2.2878156282445232,
+        "edgeMm": 1.805142512201265,
+        "minimumMm": 1.805142512201265,
+        "radiusMm": 6.445991927239596,
+        "extrema": "Exact spherical center/edge extrema"
+      }
+    },
+    {
+      "front": 12,
+      "rear": 13,
+      "material": "SCHOTT:F2",
+      "centerThicknessMm": 2.050318638486184,
+      "mechanicalRadiusMm": 7.308850097339032,
+      "thickness": {
+        "centerMm": 2.050318638486184,
+        "edgeMm": 2.7302627181918284,
+        "minimumMm": 2.050318638486184,
+        "radiusMm": 7.308850097339032,
+        "extrema": "Exact spherical center/edge extrema"
+      }
+    }
+  ],
+  "finalNativeTarget20": {
+    "method": "Native Optiland OPL + exact-frequency continuous-shift pupil overlap integral; scalar normalized entrance-pupil approximation",
+    "continuousShiftAtRequestedFrequency": true,
+    "fullPsfConvergenceClaimed": false,
+    "samples": 512,
+    "frequencyLpMm": 20.0,
+    "eflMm": 23.999925260715507,
+    "physicalImageZMm": 29.689529995910767,
+    "numericalApertureBoundaryToleranceMm": 1e-09,
+    "physicalStopRadiusMm": 3.0,
+    "allGridAnd128RimRaysValid": true,
+    "fieldWeights": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "rows": [
+      {
+        "fieldDeg": 0.0,
+        "distortionFraction": 0.0,
+        "sagittal20": 0.04884742019956136,
+        "tangential20": 0.048847420199561356,
+        "mean20": 0.048847420199561356,
+        "objectiveTerm": 0.9046912300610298,
+        "spectra": [
+          {
+            "wavelengthNm": 486.0,
+            "cutoffLpMmST": [
+              523.4982381026316,
+              523.4982381026316
+            ],
+            "opdPtvWaves": 10.809250115292663,
+            "maxNeighborPhaseWaves": 0.10802706734709133,
+            "chiefIncidenceDeg": 2.9575586669421963e-06,
+            "pupilMappingRmsFraction": 0.0010164995878921238,
+            "maxTargetIntegrandPhaseStepWavesST": [
+              0.014804755777258372,
+              0.014804755777258372
+            ]
+          },
+          {
+            "wavelengthNm": 588.0,
+            "cutoffLpMmST": [
+              428.809619823207,
+              428.809619823207
+            ],
+            "opdPtvWaves": 6.396261269489112,
+            "maxNeighborPhaseWaves": 0.06932806115961831,
+            "chiefIncidenceDeg": 3.6222548091772e-06,
+            "pupilMappingRmsFraction": 0.0010031888347717213,
+            "maxTargetIntegrandPhaseStepWavesST": [
+              0.012824287325397199,
+              0.012824287325397199
+            ]
+          },
+          {
+            "wavelengthNm": 656.0,
+            "cutoffLpMmST": [
+              382.78519947772884,
+              382.78519947772884
+            ],
+            "opdPtvWaves": 4.705668970385458,
+            "maxNeighborPhaseWaves": 0.054064959374906074,
+            "chiefIncidenceDeg": 1.7075472925031877e-06,
+            "pupilMappingRmsFraction": 0.000997750031862301,
+            "maxTargetIntegrandPhaseStepWavesST": [
+              0.011885231106905314,
+              0.011885231106905314
+            ]
+          }
+        ]
+      },
+      {
+        "fieldDeg": 10.0,
+        "distortionFraction": 0.008959607546762616,
+        "sagittal20": 0.0004267871297944266,
+        "tangential20": 0.0075346379658803,
+        "mean20": 0.003980712547837363,
+        "objectiveTerm": 1.1927408394567278,
+        "spectra": [
+          {
+            "wavelengthNm": 486.0,
+            "cutoffLpMmST": [
+              528.802355524976,
+              529.2894280319814
+            ],
+            "opdPtvWaves": 34.64254951130992,
+            "maxNeighborPhaseWaves": 0.3259367061556304,
+            "chiefIncidenceDeg": 10.223336973098942,
+            "pupilMappingRmsFraction": 0.00294607996367607,
+            "maxTargetIntegrandPhaseStepWavesST": [
+              0.020122580141519908,
+              0.03727616949296664
+            ]
+          },
+          {
+            "wavelengthNm": 588.0,
+            "cutoffLpMmST": [
+              433.14892491650335,
+              433.51403152799946
+            ],
+            "opdPtvWaves": 26.68027244448063,
+            "maxNeighborPhaseWaves": 0.25110610435086755,
+            "chiefIncidenceDeg": 10.203508290318878,
+            "pupilMappingRmsFraction": 0.0028990794873246096,
+            "maxTargetIntegrandPhaseStepWavesST": [
+              0.018194419066283274,
+              0.03528627355947833
+            ]
+          },
+          {
+            "wavelengthNm": 656.0,
+            "cutoffLpMmST": [
+              386.65744125151394,
+              386.9709403414287
+            ],
+            "opdPtvWaves": 23.155214441177336,
+            "maxNeighborPhaseWaves": 0.21780160442479257,
+            "chiefIncidenceDeg": 10.195928142756646,
+            "pupilMappingRmsFraction": 0.002879317537271106,
+            "maxTargetIntegrandPhaseStepWavesST": [
+              0.017285638540270654,
+              0.034328816206648405
+            ]
+          }
+        ]
+      },
+      {
+        "fieldDeg": 20.0,
+        "distortionFraction": -0.0016546023448117397,
+        "sagittal20": 0.0002552604891834391,
+        "tangential20": 0.001369063851731863,
+        "mean20": 0.000812162170457651,
+        "objectiveTerm": 1.005220607565117,
+        "spectra": [
+          {
+            "wavelengthNm": 486.0,
+            "cutoffLpMmST": [
+              545.1007689402077,
+              548.3252346236491
+            ],
+            "opdPtvWaves": 90.80881479426569,
+            "maxNeighborPhaseWaves": 0.7892201018745624,
+            "chiefIncidenceDeg": 20.538288508426245,
+            "pupilMappingRmsFraction": 0.006301004579007675,
+            "maxTargetIntegrandPhaseStepWavesST": [
+              0.03539034490908399,
+              0.07496756941530514
+            ]
+          },
+          {
+            "wavelengthNm": 588.0,
+            "cutoffLpMmST": [
+              446.4828387734958,
+              448.96686490092054
+            ],
+            "opdPtvWaves": 73.00909451510036,
+            "maxNeighborPhaseWaves": 0.6312981640615476,
+            "chiefIncidenceDeg": 20.49544324015935,
+            "pupilMappingRmsFraction": 0.006193550584742792,
+            "maxTargetIntegrandPhaseStepWavesST": [
+              0.03358057921357993,
+              0.0727861236768863
+            ]
+          },
+          {
+            "wavelengthNm": 656.0,
+            "cutoffLpMmST": [
+              398.5562821051822,
+              400.7162071759034
+            ],
+            "opdPtvWaves": 64.69273385646326,
+            "maxNeighborPhaseWaves": 0.5577471931779598,
+            "chiefIncidenceDeg": 20.479065328159116,
+            "pupilMappingRmsFraction": 0.00614837610554397,
+            "maxTargetIntegrandPhaseStepWavesST": [
+              0.03273899332393171,
+              0.0717481202466761
+            ]
+          }
+        ]
+      },
+      {
+        "fieldDeg": 30.0,
+        "distortionFraction": -0.018763440831461975,
+        "sagittal20": 0.00023613416924010412,
+        "tangential20": 0.00041667310181293894,
+        "mean20": 0.00032640363552652156,
+        "objectiveTerm": 1.8795140788577163,
+        "spectra": [
+          {
+            "wavelengthNm": 486.0,
+            "cutoffLpMmST": [
+              573.5671671838849,
+              587.8395861521791
+            ],
+            "opdPtvWaves": 195.11679158257903,
+            "maxNeighborPhaseWaves": 1.6827176226255744,
+            "chiefIncidenceDeg": 31.093973382335143,
+            "pupilMappingRmsFraction": 0.01189623315552119,
+            "maxTargetIntegrandPhaseStepWavesST": [
+              0.06174885084506221,
+              0.1522856361991387
+            ]
+          },
+          {
+            "wavelengthNm": 588.0,
+            "cutoffLpMmST": [
+              469.7722470854069,
+              480.981657007727
+            ],
+            "opdPtvWaves": 157.09962919236793,
+            "maxNeighborPhaseWaves": 1.3501539226359114,
+            "chiefIncidenceDeg": 31.02050501448491,
+            "pupilMappingRmsFraction": 0.011674884252857077,
+            "maxTargetIntegrandPhaseStepWavesST": [
+              0.05992953194660028,
+              0.14747558251199777
+            ]
+          },
+          {
+            "wavelengthNm": 656.0,
+            "cutoffLpMmST": [
+              419.33966935853306,
+              429.1710522530339
+            ],
+            "opdPtvWaves": 139.3376085863023,
+            "maxNeighborPhaseWaves": 1.1950489295618638,
+            "chiefIncidenceDeg": 30.992442541050497,
+            "pupilMappingRmsFraction": 0.011582343026935806,
+            "maxTargetIntegrandPhaseStepWavesST": [
+              0.05911972020673342,
+              0.14527612204613405
+            ]
+          }
+        ]
+      }
+    ],
+    "localObjectiveWithoutPenalty": 4.982166755940591
+  },
+  "testedTarget20DensitySensitivity": {
+    "rows": [
+      {
+        "samples": 128,
+        "localObjective": 4.981819836181447,
+        "maxStDifferenceTo512": 0.0003115596625299212,
+        "objectiveDifferenceTo512": 0.0003469197591439155,
+        "maxTargetIntegrandStepWaves": 0.6037354969678823,
+        "maxIndividualPupilStepWaves": 6.630333175813092
+      },
+      {
+        "samples": 256,
+        "localObjective": 4.982210314103093,
+        "maxStDifferenceTo512": 0.0001096691105741223,
+        "objectiveDifferenceTo512": 4.35581625017889e-05,
+        "maxTargetIntegrandStepWaves": 0.3036566090404236,
+        "maxIndividualPupilStepWaves": 3.3485237574722078
+      },
+      {
+        "samples": 512,
+        "localObjective": 4.982166755940591,
+        "maxStDifferenceTo512": 0.0,
+        "objectiveDifferenceTo512": 0.0,
+        "maxTargetIntegrandStepWaves": 0.1522856361991387,
+        "maxIndividualPupilStepWaves": 1.6827176226255744
+      }
+    ],
+    "acceptedMaxSt256To512": 0.0002,
+    "target20Passed": true,
+    "fullPsfOrMtfCurveConvergenceClaimed": false,
+    "scope": "Observed target20 response sensitivity on stated finite grids only; not every unsampled field/wavelength/perturbation."
+  },
+  "matchedTrace": {
+    "rows": [
+      {
+        "fieldDeg": 0.0,
+        "wavelengthNm": 486.0,
+        "rays": 1665,
+        "allValid": true,
+        "maxInterceptDifferenceMm": 5.551115123125783e-15,
+        "maxDirectionDifference": 1.5543122344752192e-15,
+        "maxChiefReferencedPathDifferenceMm": 5.684341886080802e-14
+      },
+      {
+        "fieldDeg": 0.0,
+        "wavelengthNm": 588.0,
+        "rays": 1665,
+        "allValid": true,
+        "maxInterceptDifferenceMm": 3.552713678800501e-15,
+        "maxDirectionDifference": 1.9984014443252818e-15,
+        "maxChiefReferencedPathDifferenceMm": 5.684341886080802e-14
+      },
+      {
+        "fieldDeg": 0.0,
+        "wavelengthNm": 656.0,
+        "rays": 1665,
+        "allValid": true,
+        "maxInterceptDifferenceMm": 6.217248937900877e-15,
+        "maxDirectionDifference": 1.887379141862766e-15,
+        "maxChiefReferencedPathDifferenceMm": 5.684341886080802e-14
+      },
+      {
+        "fieldDeg": 10.0,
+        "wavelengthNm": 486.0,
+        "rays": 1665,
+        "allValid": true,
+        "maxInterceptDifferenceMm": 2.220446049250313e-14,
+        "maxDirectionDifference": 2.7755575615628914e-15,
+        "maxChiefReferencedPathDifferenceMm": 1.1368683772161603e-13
+      },
+      {
+        "fieldDeg": 10.0,
+        "wavelengthNm": 588.0,
+        "rays": 1665,
+        "allValid": true,
+        "maxInterceptDifferenceMm": 1.687538997430238e-14,
+        "maxDirectionDifference": 2.6645352591003757e-15,
+        "maxChiefReferencedPathDifferenceMm": 1.1368683772161603e-13
+      },
+      {
+        "fieldDeg": 10.0,
+        "wavelengthNm": 656.0,
+        "rays": 1665,
+        "allValid": true,
+        "maxInterceptDifferenceMm": 2.220446049250313e-14,
+        "maxDirectionDifference": 2.9976021664879227e-15,
+        "maxChiefReferencedPathDifferenceMm": 1.1368683772161603e-13
+      },
+      {
+        "fieldDeg": 20.0,
+        "wavelengthNm": 486.0,
+        "rays": 1665,
+        "allValid": true,
+        "maxInterceptDifferenceMm": 3.375077994860476e-14,
+        "maxDirectionDifference": 2.7755575615628914e-15,
+        "maxChiefReferencedPathDifferenceMm": 1.1368683772161603e-13
+      },
+      {
+        "fieldDeg": 20.0,
+        "wavelengthNm": 588.0,
+        "rays": 1665,
+        "allValid": true,
+        "maxInterceptDifferenceMm": 2.842170943040401e-14,
+        "maxDirectionDifference": 2.7755575615628914e-15,
+        "maxChiefReferencedPathDifferenceMm": 8.526512829121202e-14
+      },
+      {
+        "fieldDeg": 20.0,
+        "wavelengthNm": 656.0,
+        "rays": 1665,
+        "allValid": true,
+        "maxInterceptDifferenceMm": 2.842170943040401e-14,
+        "maxDirectionDifference": 2.7755575615628914e-15,
+        "maxChiefReferencedPathDifferenceMm": 8.526512829121202e-14
+      },
+      {
+        "fieldDeg": 30.0,
+        "wavelengthNm": 486.0,
+        "rays": 1665,
+        "allValid": true,
+        "maxInterceptDifferenceMm": 6.927791673660977e-14,
+        "maxDirectionDifference": 2.7755575615628914e-15,
+        "maxChiefReferencedPathDifferenceMm": 1.4210854715202004e-13
+      },
+      {
+        "fieldDeg": 30.0,
+        "wavelengthNm": 588.0,
+        "rays": 1665,
+        "allValid": true,
+        "maxInterceptDifferenceMm": 4.973799150320701e-14,
+        "maxDirectionDifference": 3.219646771412954e-15,
+        "maxChiefReferencedPathDifferenceMm": 2.2737367544323206e-13
+      },
+      {
+        "fieldDeg": 30.0,
+        "wavelengthNm": 656.0,
+        "rays": 1665,
+        "allValid": true,
+        "maxInterceptDifferenceMm": 7.815970093361102e-14,
+        "maxDirectionDifference": 3.4416913763379853e-15,
+        "maxChiefReferencedPathDifferenceMm": 1.4210854715202004e-13
+      }
+    ],
+    "maxInterceptDifferenceMm": 7.815970093361102e-14,
+    "maxCatalogIndexDifference": 2.220446049250313e-16,
+    "numericalApertureBoundaryToleranceMm": 1e-09,
+    "physicalApertureRadiiUnchanged": true
+  },
+  "separateInterpolatedDiscreteFftComparison": {
+    "samples": 512,
+    "localMerit": 4.982614850248119,
+    "maxNativeDirectDiscreteVsVendorFftDelta": 6.867055752160511e-13,
+    "warnings": [
+      {
+        "fieldDeg": 0.0,
+        "warnings": [
+          "large_opd_span_scalar_fft"
+        ],
+        "spectra": [
+          {
+            "wave_index": 0,
+            "wavelength_um": 0.486,
+            "working_f_number_sagittal_tangential": [
+              3.9305063875322594,
+              3.9305063875322594
+            ],
+            "cutoff_lpmm_sagittal_tangential": [
+              523.4982381026323,
+              523.4982381026323
+            ],
+            "marginal_na_sample_radius": 1.0,
+            "chief_incidence_angle_deg": 0.0,
+            "pupil_mapping_rms_fraction": 0.001016499587892123,
+            "pupil_ray_count": 205892,
+            "aperture_clipped_rays": 0,
+            "negative_segment_rays": 0,
+            "opd_peak_to_valley_waves": 10.809250115424124,
+            "max_transverse_ray_aberration_wavelengths": 230.77990969853442,
+            "maximum_neighbor_opd_step_waves": 0.10802706734768996
+          },
+          {
+            "wave_index": 1,
+            "wavelength_um": 0.588,
+            "working_f_number_sagittal_tangential": [
+              3.9660497187773207,
+              3.9660497187773207
+            ],
+            "cutoff_lpmm_sagittal_tangential": [
+              428.8096198232079,
+              428.8096198232079
+            ],
+            "marginal_na_sample_radius": 1.0,
+            "chief_incidence_angle_deg": 0.0,
+            "pupil_mapping_rms_fraction": 0.0010031888347717165,
+            "pupil_ray_count": 205892,
+            "aperture_clipped_rays": 0,
+            "negative_segment_rays": 0,
+            "opd_peak_to_valley_waves": 6.396261269513737,
+            "max_transverse_ray_aberration_wavelengths": 148.28470395460036,
+            "maximum_neighbor_opd_step_waves": 0.06932806120827895
+          },
+          {
+            "wave_index": 2,
+            "wavelength_um": 0.656,
+            "working_f_number_sagittal_tangential": [
+              3.9823646420559453,
+              3.9823646420559453
+            ],
+            "cutoff_lpmm_sagittal_tangential": [
+              382.7851994777288,
+              382.7851994777288
+            ],
+            "marginal_na_sample_radius": 1.0,
+            "chief_incidence_angle_deg": 0.0,
+            "pupil_mapping_rms_fraction": 0.0009977500318623011,
+            "pupil_ray_count": 205892,
+            "aperture_clipped_rays": 0,
+            "negative_segment_rays": 0,
+            "opd_peak_to_valley_waves": 4.705668970396295,
+            "max_transverse_ray_aberration_wavelengths": 115.71507081701017,
+            "maximum_neighbor_opd_step_waves": 0.05406495935319189
+          }
+        ]
+      },
+      {
+        "fieldDeg": 10.0,
+        "warnings": [
+          "large_transverse_ray_aberration_scalar_fft",
+          "large_opd_span_scalar_fft"
+        ],
+        "spectra": [
+          {
+            "wave_index": 0,
+            "wavelength_um": 0.486,
+            "working_f_number_sagittal_tangential": [
+              3.891081700423877,
+              3.8257806733103186
+            ],
+            "cutoff_lpmm_sagittal_tangential": [
+              528.8023555249772,
+              529.2894280319823
+            ],
+            "marginal_na_sample_radius": 1.0,
+            "chief_incidence_angle_deg": 10.223336973098585,
+            "pupil_mapping_rms_fraction": 0.0029460799636760707,
+            "pupil_ray_count": 205892,
+            "aperture_clipped_rays": 0,
+            "negative_segment_rays": 0,
+            "opd_peak_to_valley_waves": 34.64254951136901,
+            "max_transverse_ray_aberration_wavelengths": 776.1108479976903,
+            "maximum_neighbor_opd_step_waves": 0.3259367061240539
+          },
+          {
+            "wave_index": 1,
+            "wavelength_um": 0.588,
+            "working_f_number_sagittal_tangential": [
+              3.9263176572276515,
+              3.8609675554485676
+            ],
+            "cutoff_lpmm_sagittal_tangential": [
+              433.1489249165039,
+              433.51403152799946
+            ],
+            "marginal_na_sample_radius": 1.0,
+            "chief_incidence_angle_deg": 10.203508290318627,
+            "pupil_mapping_rms_fraction": 0.0028990794873246083,
+            "pupil_ray_count": 205892,
+            "aperture_clipped_rays": 0,
+            "negative_segment_rays": 0,
+            "opd_peak_to_valley_waves": 26.680272444389143,
+            "max_transverse_ray_aberration_wavelengths": 592.5733468685609,
+            "maximum_neighbor_opd_step_waves": 0.2511061042855367
+          },
+          {
+            "wave_index": 2,
+            "wavelength_um": 0.656,
+            "working_f_number_sagittal_tangential": [
+              3.9424826248484077,
+              3.877080181067016
+            ],
+            "cutoff_lpmm_sagittal_tangential": [
+              386.6574412515143,
+              386.97094034142947
+            ],
+            "marginal_na_sample_radius": 1.0,
+            "chief_incidence_angle_deg": 10.195928142756033,
+            "pupil_mapping_rms_fraction": 0.0028793175372711006,
+            "pupil_ray_count": 205892,
+            "aperture_clipped_rays": 0,
+            "negative_segment_rays": 0,
+            "opd_peak_to_valley_waves": 23.15521444109458,
+            "max_transverse_ray_aberration_wavelengths": 511.447209655705,
+            "maximum_neighbor_opd_step_waves": 0.21780160440535212
+          }
+        ]
+      },
+      {
+        "fieldDeg": 20.0,
+        "warnings": [
+          "chief_incidence_exceeds_20_deg",
+          "large_transverse_ray_aberration_scalar_fft",
+          "large_opd_span_scalar_fft",
+          "phase_grid_may_alias_increase_sampling"
+        ],
+        "spectra": [
+          {
+            "wave_index": 0,
+            "wavelength_um": 0.486,
+            "working_f_number_sagittal_tangential": [
+              3.7747390683831226,
+              3.514022220133245
+            ],
+            "cutoff_lpmm_sagittal_tangential": [
+              545.1007689402068,
+              548.3252346236476
+            ],
+            "marginal_na_sample_radius": 1.0,
+            "chief_incidence_angle_deg": 20.53828850842657,
+            "pupil_mapping_rms_fraction": 0.006301004579007701,
+            "pupil_ray_count": 205892,
+            "aperture_clipped_rays": 0,
+            "negative_segment_rays": 0,
+            "opd_peak_to_valley_waves": 90.80881479426313,
+            "max_transverse_ray_aberration_wavelengths": 2199.0019464066413,
+            "maximum_neighbor_opd_step_waves": 0.7892201018043039
+          },
+          {
+            "wave_index": 1,
+            "wavelength_um": 0.588,
+            "working_f_number_sagittal_tangential": [
+              3.8090607844652475,
+              3.5482067849525905
+            ],
+            "cutoff_lpmm_sagittal_tangential": [
+              446.4828387734961,
+              448.966864900921
+            ],
+            "marginal_na_sample_radius": 1.0,
+            "chief_incidence_angle_deg": 20.49544324015933,
+            "pupil_mapping_rms_fraction": 0.006193550584742823,
+            "pupil_ray_count": 205892,
+            "aperture_clipped_rays": 0,
+            "negative_segment_rays": 0,
+            "opd_peak_to_valley_waves": 73.00909451511589,
+            "max_transverse_ray_aberration_wavelengths": 1751.223448202782,
+            "maximum_neighbor_opd_step_waves": 0.6312981639729145
+          },
+          {
+            "wave_index": 2,
+            "wavelength_um": 0.656,
+            "working_f_number_sagittal_tangential": [
+              3.8247803694137743,
+              3.5637413328496006
+            ],
+            "cutoff_lpmm_sagittal_tangential": [
+              398.55628210518216,
+              400.71620717590406
+            ],
+            "marginal_na_sample_radius": 1.0,
+            "chief_incidence_angle_deg": 20.479065328159173,
+            "pupil_mapping_rms_fraction": 0.006148376105543985,
+            "pupil_ray_count": 205892,
+            "aperture_clipped_rays": 0,
+            "negative_segment_rays": 0,
+            "opd_peak_to_valley_waves": 64.69273385646889,
+            "max_transverse_ray_aberration_wavelengths": 1543.3304157368073,
+            "maximum_neighbor_opd_step_waves": 0.5577471931344604
+          }
+        ]
+      },
+      {
+        "fieldDeg": 30.0,
+        "warnings": [
+          "chief_incidence_exceeds_20_deg",
+          "large_transverse_ray_aberration_scalar_fft",
+          "large_opd_span_scalar_fft",
+          "phase_grid_may_alias_increase_sampling"
+        ],
+        "spectra": [
+          {
+            "wave_index": 0,
+            "wavelength_um": 0.486,
+            "working_f_number_sagittal_tangential": [
+              3.5873970590520448,
+              2.997379308211472
+            ],
+            "cutoff_lpmm_sagittal_tangential": [
+              573.5671671838845,
+              587.8395861521784
+            ],
+            "marginal_na_sample_radius": 1.0,
+            "chief_incidence_angle_deg": 31.093973382335157,
+            "pupil_mapping_rms_fraction": 0.011896233155521208,
+            "pupil_ray_count": 205892,
+            "aperture_clipped_rays": 0,
+            "negative_segment_rays": 0,
+            "opd_peak_to_valley_waves": 195.116791582535,
+            "max_transverse_ray_aberration_wavelengths": 5475.800172961459,
+            "maximum_neighbor_opd_step_waves": 1.6827176226233007
+          },
+          {
+            "wave_index": 1,
+            "wavelength_um": 0.588,
+            "working_f_number_sagittal_tangential": [
+              3.6202229541236584,
+              3.0301653526935244
+            ],
+            "cutoff_lpmm_sagittal_tangential": [
+              469.7722470854076,
+              480.9816570077288
+            ],
+            "marginal_na_sample_radius": 1.0,
+            "chief_incidence_angle_deg": 31.020505014484776,
+            "pupil_mapping_rms_fraction": 0.011674884252857055,
+            "pupil_ray_count": 205892,
+            "aperture_clipped_rays": 0,
+            "negative_segment_rays": 0,
+            "opd_peak_to_valley_waves": 157.09962919237944,
+            "max_transverse_ray_aberration_wavelengths": 4406.786464389007,
+            "maximum_neighbor_opd_step_waves": 1.3501539226317334
+          },
+          {
+            "wave_index": 2,
+            "wavelength_um": 0.656,
+            "working_f_number_sagittal_tangential": [
+              3.6352159246806033,
+              3.0448489280651967
+            ],
+            "cutoff_lpmm_sagittal_tangential": [
+              419.3396693585333,
+              429.1710522530341
+            ],
+            "marginal_na_sample_radius": 1.0,
+            "chief_incidence_angle_deg": 30.992442541050522,
+            "pupil_mapping_rms_fraction": 0.011582343026935785,
+            "pupil_ray_count": 205892,
+            "aperture_clipped_rays": 0,
+            "negative_segment_rays": 0,
+            "opd_peak_to_valley_waves": 139.3376085861529,
+            "max_transverse_ray_aberration_wavelengths": 3903.8434218121274,
+            "maximum_neighbor_opd_step_waves": 1.1950489294508486
+          }
+        ]
+      }
+    ],
+    "scope": "Agreement on the same discrete grid checks implementation/dispersion; individual pupil phase aliases and no full PSF accuracy is established."
+  },
+  "definitions": {
+    "score": "sum_i[(Distortion_588_fraction/.02)^2+(1-mean(MTF20_S,MTF20_T))^2]+P, equal local field weights1",
+    "mtf": "Exact-frequency shifted-pupil overlap integral, complex equal-spectral OTF average before absolute value, one fixed primary image origin and physical angles.",
+    "pupil": "Fixed physical plane stop in air, radius3mm / EPD6mm; r_max unchanged; existing standalone1e-9mm numerical boundary tolerance matched in native aperture classification."
+  },
+  "limitations": [
+    "Nominal valid structure has very low polychromatic MTF20 at some fields; not a competitive/high-performance optical design claim.",
+    "Normalized entrance-pupil scalar mapping uses real marginal NA/chief projection; maximum chief incidence is about31degrees, outside the modest-angle ideal. Same-model verification does not establish full vector/Huygens accuracy.",
+    "Individual pupil phase remains aliased on512 grid. Continuous-shift target20 uses resolved phase DIFFERENCE integrands and tested density stability; full PSF or entire MTF curve accuracy is not claimed.",
+    "No fabrication, tolerance, polarization, coating or thermal verification. Official score/ranking unknown."
+  ]
+}
