@@ -2,11 +2,12 @@
   "competitionId": "d0d73808-3180-4ca2-b91e-e1d71cd79a86",
   "competition": "Moderate Wide-Angle Lens Optimization",
   "notebookUrl": "https://github.com/wufansaber/optiland-competition-cases/blob/main/cases/moderate-wide-angle/submission.ipynb",
-  "status": "ready_to_submit",
+  "status": "not_submitted",
   "preparedOn": "2026-11-11",
   "dateTimezone": "Asia/Shanghai",
   "receiptConfirmed": false,
+  "submissionDeferredOn": "2026-11-11",
   "officialScore": null,
   "officialRanking": null,
-  "note": "This entry is a nominal numerical validation benchmark with poor image quality. Local validation and publication do not establish website receipt or an official score."
+  "note": "Submission was deferred while development continued on the desktop software. This nominal benchmark has not been submitted to the competition website."
 }
