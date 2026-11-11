@@ -7,7 +7,7 @@ Challenges: [Optiland competitions](https://www.optiland.org/competitions).
 | Case | Notebook | Local validation | Submission |
 | --- | --- | --- | --- |
 | Minimize RMS Spot Size | [Executed notebook](cases/minimize-rms-spot/submission.ipynb) | All declared constraints pass; P = 0 | Received — user-confirmed, 2026-11-10 |
-| Design an Achromatic Doublet | [Executed notebook](cases/achromatic-doublet/submission.ipynb) | All declared constraints pass; P = 0 | Ready to submit |
+| Design an Achromatic Doublet | [Executed notebook](cases/achromatic-doublet/submission.ipynb) | All declared constraints pass; P = 0 | Received — user-confirmed, 2026-11-11 |
 
 Each notebook includes a frozen prescription, pinned dependencies, calculation definitions, executed outputs and source attribution. Local merit values are not official server scores or rankings. Run all cells to reproduce the results.
 

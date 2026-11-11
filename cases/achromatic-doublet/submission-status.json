@@ -2,11 +2,13 @@
   "competitionId": "f25db72f-a90b-4c41-af3c-9dcd85fb2090",
   "competition": "Design an Achromatic Doublet",
   "notebookUrl": "https://github.com/wufansaber/optiland-competition-cases/blob/main/cases/achromatic-doublet/submission.ipynb",
-  "status": "ready_to_submit",
+  "status": "received",
   "preparedOn": "2026-11-10",
   "dateTimezone": "Asia/Shanghai",
-  "receiptConfirmed": false,
+  "receiptConfirmed": true,
+  "confirmationSource": "User reported the visible Submission received screen on the signed-in competition page.",
+  "confirmedOn": "2026-11-11",
   "officialScore": null,
   "officialRanking": null,
-  "note": "Local validation and publication do not establish receipt by the competition website."
+  "note": "This record confirms user-reported receipt only; it does not establish an official score or ranking."
 }
